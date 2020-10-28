@@ -6,15 +6,11 @@ import Vida_Politica_Colegio from "./Pages/vistas/Vida_Politica_Colegio";
 import Vida_Politica_Adolescente from "./Pages/vistas/Vida_Politica_Adolescente";
 import Vida_Politica_Adulto from "./Pages/vistas/Vida_Politica_Adulto";
 import Pregunta from "./Pages/vistas/Pregunta";
-// import Mapas from "./components/Mapas";
-// import Mapa2 from "./components/Mapa2";
-// import Mapa3 from "./components/Mapa3"
-// import Foros from "./components/Foros";
-// import Pregunta1 from "./components/Pregunta1";
-// import Ideologias from "./components/Ideologias";
-// import ComoVotar from './Pages/ComoVotar/ComoVotar';
-// import DeberHacer from './Pages/ComoVotar/DeberHacer';
-// import NoDeberHacer from './Pages/ComoVotar/NoDeberHacer';
+import ComoVotar from './ComoVotar';
+import DeberHacer from './Pages/DeberHacer';
+import NoDeberHacer from './Pages/NoDeberHacer';
+import InicioSesion from './Pages/InicioSesion';
+import Regis from "./Pages/Regis";
 
 
 function Aplicacion(){
@@ -38,28 +34,14 @@ function Aplicacion(){
         <Switch>
             <Route exact path="/Vida_Politica_Pregunta" component={Pregunta}/>         
         </Switch>
-        {/* <Switch>
-            <Route exact path="/Ideologias" component={Ideologias}/>
-            <Route exact path="/Ideologias/mapas" component={Mapas}/>
-            <Route exact path="/Ideologias/foros" component={Foros}/>
-            <Route exact path="/Ideologias/mapas/mapa2" component={Mapa2}/>
-            <Route exact path="/Ideologias/mapas/mapa2/mapa3/foros" component={Foros}/>
-            <Route exact path="/Ideologias/mapas/mapa2/mapa3/foros/pregunta1" component={Pregunta1}/>
-             <Route exact path="/Ideologias/mapas/mapa2/mapa3" component={Mapa3}/>
-           <Route exact path=" /foros/Ideologias/" component={Ideologias}/>
-           <Route exact path="/Ideologias/mapas/mapa2/Ideologias" component={Ideologias}/>
-           <Route exact path="/Ideologias/mapas/mapa2/mapa3/foros/Ideologias" component={Ideologias}/>
-           <Route exact path="/Ideologias/mapas/mapa2/mapa3/foros/pregunta1/Ideologias" component={Ideologias}/>
-          
-       
-
-        </Switch>
-        <Switch>
-        <Route exact path="/politiqueando" component={ComoVotar}/>
-        <Route exact path="/politiqueando/deber" component={DeberHacer}/>
-        <Route exact path="/politiqueando/deber/nodeber" component={NoDeberHacer}/>
         
-        </Switch> */}
+
+        <Route exact path="/inicio/Regis" component={Regis}/>
+        <Route exact path="/inicio/ComoVotar" component={ComoVotar}/>
+        <Route exact path= "/inicio" component={InicioSesion}/>
+        <Route exact path="/inicio/ComoVotar/deber" component={DeberHacer}/>
+        <Route exact path="/inicio/ComoVotar/nodeber" component={NoDeberHacer}/>
+        <Route exact path="inicio/Regis/inicio" component={InicioSesion}/>
         </BrowserRouter>
     );
 }

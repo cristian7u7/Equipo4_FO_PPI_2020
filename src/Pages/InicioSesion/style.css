@@ -1,0 +1,20 @@
+.loguitos{
+    text-align: center;
+}
+.Titulo{
+    background-color: black;
+    font-size: 800px;
+    text-align: center;
+}
+.Regristarse{
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+
+}
+.reg{
+    font-size: 50px;
+    color: black;
+    margin-top: 80px;
+}

@@ -24,12 +24,12 @@
     margin-left:  700px ;
     
 }
- .titulo{
+/* .titulo{
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 1500px;
     text-align: center;
-} 
+} */
 
 .titulo2{
     color: black;
@@ -97,13 +97,13 @@
     
 }
 .btn_1{
-    background-color: #87bbeb;
+    background-color: #ffffff;
     font-family: Arial;
     font-weight: bold;
     font-size: 25px;
     margin-top: 30px;
     border-radius: 5px;
-    
+    color: #000000;
     
 }
 .TituloC{
@@ -113,7 +113,7 @@
     text-align: center;
 }
 .Titulo2C{
-    font-size: 50px;
+    font-size: 35px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 1500px;
     text-align: center;

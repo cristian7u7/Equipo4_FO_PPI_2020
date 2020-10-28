@@ -98,9 +98,19 @@
     text-align: center;
     margin: auto;
     margin-top: 30px;
-    display: flex;
-    
-    
+    display: block;
+  margin-left: 350px ;
+  margin-right: auto;
+  
+}
+.boton_flechas_3{
+    text-align: right;
+    margin: auto;
+    margin-top: -110px;
+    display: block;
+float: right;
+  margin-right: 20% ;
+  
 }
 .btn_4{
 

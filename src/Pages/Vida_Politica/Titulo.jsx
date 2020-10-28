@@ -3,10 +3,15 @@ import "./style.css";
 class Titulo extends React.Component {
     render() {
         return (
-          <React.Fragment>
-                <h1 classname="TituloC"> POLITICA Y DEMOCRACIA</h1>
-                <h4 classname="TituloC">A LO LARGO DE LA VIDA</h4>
-          </React.Fragment>
+          
+            <div >
+                <h1 className="vacio">.</h1>
+                <h1 className="vacio">.</h1>
+                
+
+           <h1 className="TituloC">POLITICA Y DEMOCRACIA</h1>
+           <h4 className="Titulo2C">A LO LARGO DE LA VIDA</h4>
+           </div>
         );
     }
 }

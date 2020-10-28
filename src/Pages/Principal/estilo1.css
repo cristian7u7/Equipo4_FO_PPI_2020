@@ -1,0 +1,222 @@
+.barrita{
+    background-color: #ffbd59;
+    height: 90px;
+    color: black;
+    width: 100%;
+}
+
+.logo{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.elements{
+    margin-top: 15px;
+    color: black;
+    font-size: 15px;
+    margin-left: 40px;
+}
+
+.elements__1{
+    margin-left: 700px;
+}
+
+.elements__down{
+    color: black;
+    font-size: 14px;
+}
+
+.container{
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.container__card{
+    align-items: center;
+    margin: auto;
+}
+
+.image{
+    width: 180px;
+    height: 180px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 18%;
+}
+
+.text{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1000px;
+    margin-bottom: 40px;
+}
+
+.text_1{
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 73%;
+}
+
+.contenedor{
+    text-align: center;
+    width: 100%;
+    height: 80%;
+}
+
+.contenedor__body{
+    margin-top: 10%;
+    margin-bottom: 8%;
+}
+
+.Titulo__temas{
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1500px;
+    text-align: center;
+    margin-top: 160px;
+}
+
+.image_voto{
+    width: 100%;
+    height: 80%;
+}
+
+.Titulo1{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1500px;
+    text-align: center;
+}
+
+.Titulo1__1{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.Titulo1__2{
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+}
+
+.vacio{
+    background-color: #F1D049;
+    color: #F1D049;
+    margin-top: 7%;
+}
+
+.card{
+    justify-items: center;
+    margin: 8%;
+    border: 2px solid #ffe159;
+    margin-bottom: 3%;
+}
+
+.conte{
+    width: 90%;
+    margin-top: 25px;
+    margin-left: 5%;
+}
+
+.Titulo__razones{
+    margin-top: 85px;
+    font-size: 45px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.carru{
+    margin-top: 60px;
+    justify-items: center;
+    margin-left: 50px;
+}
+
+/*Diseño Intro_Foros*/
+
+.Foros{
+    display: flex;
+    background-color: #F1D049;
+    text-align: center;
+}
+
+.conte_tittle{
+    text-align: center;
+    margin-left: 100px;
+    justify-items: center;
+    margin-left: 12%;
+    width: 120%;
+}
+
+.tittle_1{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1500px;
+    margin-top: 95px;
+    margin-right: 29%;
+}
+
+.tittle_2{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1500px;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 95px;
+    color: slategrey;
+}
+
+.parrafo_foros{
+    margin: auto;
+    text-align: center;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    margin-top: 100px;
+    margin-right: 150%;
+}
+
+.ancle_foros{
+    color: black;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.FondoForos{
+    background-color:  #F1D049;
+    text-align: center;
+}
+
+/*Footer*/
+
+.footer{
+    background-color: #D6D6D6;
+    text-align: center;
+    padding: 3%;
+}
+
+.footer_parrafo{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1500px;
+}
+
+.footer_image{
+    width: 3%;
+    height: 3%;
+}

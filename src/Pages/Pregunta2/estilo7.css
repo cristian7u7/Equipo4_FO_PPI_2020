@@ -1,0 +1,72 @@
+.conte-Pregunta2{
+    background-color: #FDE78D;
+    padding: 0.5%;
+}
+
+.Titulo_Principal2{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1500px;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.Sub_Principal2{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1500px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+.sub_titulo2{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1500px;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.Parrafo_Des2{
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 3%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+}
+
+.texto_Pregunta{
+    margin: auto;
+    width: 70%;
+    height: 120px;
+}
+
+.publicar{
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1500px;
+    padding: 3%;
+}
+
+.btn{
+    background-color: aquamarine;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.conte-btn{
+    margin-left: 15%;
+    margin-bottom: 4%;
+    margin-top: 1%;
+}
+
+.vacio{
+    background-color: #F1D049;
+    color: #F1D049;
+    margin-top: 4%;
+}

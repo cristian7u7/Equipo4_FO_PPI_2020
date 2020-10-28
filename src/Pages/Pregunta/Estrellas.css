@@ -1,0 +1,63 @@
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  #form p {
+    text-align: center;
+    font-size: 50px;
+    margin: auto;
+  }
+  
+  #form label {
+    font-size: 50px;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+  }
+  
+  input[type="radio"] {
+    display: none;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+  }
+  
+  label {
+    color: grey;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: orange;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    font-size: 50px;
+    color: orange;
+    text-align: center;
+    margin: auto;
+  }
+  .estrellas{
+      text-align: center;
+      font-size: 50px;
+      margin: auto;
+      margin-top: 50px;
+  }

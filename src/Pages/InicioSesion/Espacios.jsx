@@ -1,5 +1,5 @@
 import React from 'react';
-import '../InicioSesion/style.css';
+import './styleInicio.css';
 import { Link } from 'react-router-dom';
 
 class  Espacios extends React.Component {

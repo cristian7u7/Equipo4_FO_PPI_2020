@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './styleRegis.css';
 
 class Body extends React.Component {
     render() {

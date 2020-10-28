@@ -1,0 +1,91 @@
+.Titulo-Mapa1{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1500px;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.Titulo-Mapa2{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1500px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Titulo-Par{
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 3%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+}
+
+.voto-img{
+    width: 100%;
+}
+
+.vacio{
+    background-color: #F1D049;
+    color: #F1D049;
+    margin-top: 7%;
+}
+
+.ForosTitulo{
+    margin-top: 60px;
+    text-align: center;
+    height: 110px;
+    color: black;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 60px;
+    
+    
+}
+
+.cont_Foros{
+    margin-top: 5%;
+}
+
+.entre_Foros{
+    margin-top: 6%;
+    padding: 4%;
+}
+
+.card_Foros-body{
+    padding: 0.5%;
+    width: 70%;
+    background-color:  #87bbeb;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.card-text_Foros{
+    color: black;
+    text-align: center;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.conte-parti{
+    background-color: #ffbd59;
+    padding: 3%;
+}
+
+.img-foros{
+    width: 20%;
+    height: 20%;
+    margin: 4%;
+}
+
+.conte-img-foros{
+    text-align: center;
+    margin: auto;
+    padding: 3%;
+    background-color: powderblue;
+}

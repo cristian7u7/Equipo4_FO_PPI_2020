@@ -1,0 +1,44 @@
+/*Titulo voto*/
+
+.voto-title{
+    margin-top: 100px;
+}
+
+.voto-img{
+    width: 100%;
+}
+
+.Titulo1_cop{
+    margin-top: 6%;
+}
+
+.Titulo2_cop{
+    margin-top: 3%;
+}
+
+/*Cards*/
+
+.card{
+    justify-items: center;
+    margin: 8%;
+    border: 2px solid #ffe159;
+    margin-bottom: 3%;
+}
+
+.text{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1000px;
+    margin-bottom: 40px;
+}
+
+.text__1{
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 73%;
+}

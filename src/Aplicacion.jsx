@@ -11,6 +11,14 @@ import DeberHacer from './Pages/DeberHacer';
 import NoDeberHacer from './Pages/NoDeberHacer';
 import InicioSesion from './Pages/InicioSesion';
 import Regis from "./Pages/Regis";
+import Principal from "./Pages/pages/Principal";
+import Voto from "./Pages/pages/Voto";
+import Razones_V from "./Pages/pages/Razones_V";
+import Nosotros from "./Pages/pages/Nosotros";
+import Foros_Principal from './Pages/pages/Foros_Principal';
+import PreguntaUno from "./Pages/pages/PreguntaUno";
+import PreguntaDos from "./Pages/pages/PreguntaDos";
+import PreguntaTres from "./Pages/pages/PreguntaTres";
 
 
 function Aplicacion(){
@@ -42,7 +50,18 @@ function Aplicacion(){
         <Route exact path="/inicio/ComoVotar/deber" component={DeberHacer}/>
         <Route exact path="/inicio/ComoVotar/nodeber" component={NoDeberHacer}/>
         <Route exact path="inicio/Regis/inicio" component={InicioSesion}/>
+
+        <Route exact path="/politiqueando" component={Principal} />;
+        <Route exact path="/politiqueando/Voto" component={Voto} />;
+        <Route exact path="/politiqueando/Voto/Razones" component={Razones_V} />;
+        <Route exact path="/politiqueando/Nosotros" component={Nosotros} />;
+        <Route exact path="/politiqueando/Foros" component={Foros_Principal} />;
+        <Route exact path="/politiqueando/Foros/Pregunta1" component={PreguntaUno} />;
+        <Route exact path="/politiqueando/Foros/Pregunta2" component={PreguntaDos} />;
+        <Route exact path="/politiqueando/Foros/Pregunta3" component={PreguntaTres} />;
         </BrowserRouter>
+
+        
     );
 }
 export default Aplicacion;

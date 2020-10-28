@@ -1,0 +1,55 @@
+.Fondo{
+    background-color: powderblue;
+    padding: 4%;
+}
+
+.Titulo1_int{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1500px;
+    margin-top: 60px;
+}
+
+.Titulo1_nos{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1500px;
+    margin-top: 10px;
+    
+}
+
+.conte-nos{
+    display: flex;
+    margin-top: 6%;
+}
+
+.conten-nos{
+    margin-top: 10%;
+    margin: 5%;
+    margin-top: auto;
+    text-align: center;
+    width: 25%;
+}
+
+.Titulo2__obj{
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+}
+
+.voto-img{
+    width: 100%;
+}
+
+.Fondo1{
+    background-color:#FDE78D;
+    padding: 4%;
+}
+
+.img-proy{
+    width: 100%;
+}

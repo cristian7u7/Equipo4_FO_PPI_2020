@@ -1,0 +1,63 @@
+
+.ImagenMapa{
+    text-align: center;
+    width: 900px;
+}
+.MapaBandera{
+    margin-top: 90px;
+    display: flex;
+
+}.Bandera_p2{
+    margin-top: 90px;
+    
+
+}.Bandera_p3{
+    margin-top: 200px;
+    
+}.Bandera_p4{
+    margin-top: 300px;
+}.Bienvenido2{
+    text-align: center;
+    height: 110px;
+    color: black;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 30px;
+     margin-left: -200px;
+    
+}.Bienvenido1{
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 60px;
+     margin-left: -200px;
+     
+
+}.ParrafoReflexion{
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    color: black;
+    width: 30%;
+    margin-right: 150px;
+    font-size: 20px;
+  
+}
+.div-wel{
+ margin-left: 800px;
+}.ImagenMapa10{
+  
+    
+}.divsito{
+    width: 500px;
+    margin-right: -200px;
+    margin-top:-480px;
+   
+
+}.FlechitaInicio{
+    width: 100px;
+    margin-left: 30px;
+    margin-top: 40px;
+}

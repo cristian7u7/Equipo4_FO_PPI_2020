@@ -1,0 +1,57 @@
+.Titulo-Mapa1{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1500px;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.Titulo-Mapa2{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1500px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Titulo-Par{
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 3%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+}
+
+.Titulo-Map{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1500px;
+    margin-top: 60px;
+    text-align: center;
+    width: 10%;
+}
+
+.Conte-Mapa{
+    margin-top: 4%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.Img-Mapa{
+    width: 290px;
+    height: 230px;
+    margin-left: 30%;
+}
+.voto-title{
+    margin-top: 100px;
+}
+
+.voto-img{
+    width: 100%;
+}

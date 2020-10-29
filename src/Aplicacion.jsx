@@ -19,6 +19,13 @@ import Foros_Principal from './Pages/pages/Foros_Principal';
 import PreguntaUno from "./Pages/pages/PreguntaUno";
 import PreguntaDos from "./Pages/pages/PreguntaDos";
 import PreguntaTres from "./Pages/pages/PreguntaTres";
+import Mapas from "./Vistas1/Mapas";
+import Mapa2 from "./Vistas1/Mapa2";
+import Mapa3 from "./Vistas1/Mapa3"
+import Ideologias from "./Vistas1/Ideologias";
+import Mapa4 from "./Vistas1/Mapa4";
+import IntroduccionMapa from "./Vistas1/ContenidoIntroduccion_1"
+import ContenidoIntroduccion_1 from "./Vistas1/ContenidoIntroduccion_1";
 
 
 function Aplicacion(){
@@ -59,8 +66,24 @@ function Aplicacion(){
         <Route exact path="/politiqueando/Foros/Pregunta1" component={PreguntaUno} />;
         <Route exact path="/politiqueando/Foros/Pregunta2" component={PreguntaDos} />;
         <Route exact path="/politiqueando/Foros/Pregunta3" component={PreguntaTres} />;
-        </BrowserRouter>
+        <Route exact path="/Ideologias" component={Ideologias}/>
+            <Route exact path="/Ideologias/IntroduccionMapa/mapas" component={Mapas}/>
+            <Route exact path="/Ideologias/IntroduccionMapa/mapas/mapa2" component={Mapa2}/>
+             <Route exact path="/Ideologias/IntroduccionMapa/mapas/mapa2/mapa3" component={Mapa3}/>
+           <Route exact path="/Ideologias/IntroduccionMapa/mapas/mapa2/Ideologias" component={Ideologias}/>
+           <Route exact path="/Ideologias/mapas/Ideologias" component={Ideologias}/>
+           <Route exact path="/Ideologias/IntroduccionMapa/mapas/mapa2/mapa3/mapa4" component={Mapa4}/>
+           <Route exact path="/Ideologias/IntroduccionMapa/mapas/mapa2/mapa3/mapa4" component={Mapa4}/>
+           <Route exact path="/Ideologias/IntroduccionMapa" component={IntroduccionMapa}/>
+           <Route exact path="/Ideologias/IntroduccionMapa/mapas/mapa2/Ideologias" component={Ideologias}/>
+           <Route exact path="/Ideologias/IntroduccionMapa/mapas/mapa2/mapa3/Ideologias" component={Ideologias}/>
+           <Route exact path="/Ideologias/IntroduccionMapa" component={ContenidoIntroduccion_1}/>
 
+            
+
+
+        </BrowserRouter>
+        
         
     );
 }

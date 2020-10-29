@@ -1,0 +1,48 @@
+.ImagenMapitaLider{
+    margin-top: 80px;
+   }.SubtituloLideres{
+       margin-top: -40px;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        margin-left: 770px;
+        color: black;
+   }.TituloLideres{
+      margin-top: -500px;
+       text-align: center;
+       margin-left: 400px;
+       height: 110px;
+       color: black;
+       color: black;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 50px;
+   }.LiderSocialParrafo{
+       margin-top: 90px;;
+       font-size: 20px;
+       font-family: Arial, Helvetica, sans-serif;
+       width: 30%;
+       color: black;
+       margin-left: 650px;
+   }
+   .CirucloLideres{
+       width: 200px;
+    margin: 5%;
+    margin-top: 100px;
+   margin-left: 10%;
+   text-align: center;
+   
+   }.ProblemaLideres{
+       margin-top: 100px;
+       font-size: 20px;
+       font-family: Arial, Helvetica, sans-serif;
+       width: 60%;
+       color: black;
+       margin-left: 300px;
+       
+   }.DivLideres{
+       background-color:  #ffbd59;
+       height: 200px;
+   }.imagenflechaiz{
+       margin-left: 30px;
+       margin-top: 40px;
+   }
+   

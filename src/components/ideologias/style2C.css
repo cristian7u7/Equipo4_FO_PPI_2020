@@ -1,0 +1,173 @@
+
+.navbar-expand-lg{
+    background-color: #ffbd59;
+    height: 120px;
+    color: black;
+    width: 100%;
+}
+
+.logo{
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.elements{
+    margin-top: 15px;
+    color: black;
+    font-size: 15px;
+    margin-left: 40px;
+}
+
+.elements__1{
+    margin-left: 700px;
+}
+
+.elements__down{
+    color: black;
+    font-size: 14px;
+}
+
+.TituloIdeologias{
+    margin-top: 60px;
+    text-align: center;
+    height: 110px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 50px;
+    
+   
+   
+
+}
+.parrafoideologias{
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+    color: black;
+    margin-bottom: 5%;
+    
+
+   
+   
+}.logo{
+    width: 80px;
+    height: 100px;
+    font-weight: bold;
+    
+
+
+}
+.btn_FM{
+ height: 60px;;
+ width: 80px;
+ font-size: 100px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.parrafo{
+    text-align: center;
+}.imagenesideologias{
+    margin-top: 50px;
+    text-align: center;
+    
+
+}
+.mapasboton{
+    font-size: 20px;
+}.TituloIdeologias1{
+    margin-top: 15px;
+    text-align: center;
+    height: 110px;
+    color: black;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 40px;
+
+}.ParrafoIdeologias2{
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+    color: black;
+    
+}
+
+.contenido-ide{
+    background-color: powderblue;
+
+    
+    
+}.ImagenIdeologias{
+    width: 1300px;
+}.ParrafoIdeologias3{
+   
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 10%;
+    margin-top: 60px;
+    color: black;
+}.ImagenesIdeologias{
+    
+    display: flex;
+   
+   
+}.Imagensitas {
+ width: 200px;
+ margin: 5%;
+ margin-top: 70px;
+margin-left: 10%;
+text-align: center;
+} .footer{
+    margin-top: 30px;
+    background-color: #D6D6D6;
+    text-align: center;
+    padding: 3%;
+}
+
+.footer_parrafo{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1500px;
+}
+
+.footer_image{
+    width: 3%;
+    height: 3%;
+}.MapasBoton{
+    font-size: 20px;
+    
+    background-color: #ffbd59 ;
+   border: none;
+   height: 60px;
+   width: 150px;
+   color: black;
+   margin-left: 700px;
+   border-radius: 10px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}.ForosBoton{
+   background-color:  #ffbd59;
+   color: black;
+   border: none;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 20px;
+   height: 60px;
+   width: 150px;
+   border-radius: 10px;
+   margin-left: -400px;
+   
+}.DivBotones{
+    display: flex;
+    margin-top: 40px;
+   
+
+    
+    
+}

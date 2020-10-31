@@ -1,0 +1,58 @@
+.tituoInicioSesion {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    margin-top: 70px;
+    font-weight: bold;
+    text-align: center;
+}
+.formulario {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+}
+.cuentasSesion{
+    margin-top: 50px;
+    border: none; 
+    background: none; 
+    width: 50px;
+}
+.iniciar{
+    background-color:#87bbeb;
+    margin-top: 90px;
+    padding: 10px;
+    width: 40%;
+    margin: auto;
+    border-radius: 20px;
+}
+.personalizado:hover{
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.personalizado{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    color: #0e0c0c;
+    border-radius: 6px;
+    text-align: center;
+}
+.personalizado1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    color: black;
+}
+.imagenIcono{
+    text-align: center;
+}
+.solito{
+    margin-top: 60px;
+}

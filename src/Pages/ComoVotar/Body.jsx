@@ -12,8 +12,8 @@ class Body extends React.Component {
         Colombia es porque muchas de las personas no están informadas
         de la manera correcta de como votar,ni dónde hacerlo.
         Esto se convierte en un gran problema  ya que al haber 
-        voto nulos o personas que no vayan a votar, esto hace
-        que las crifras crazan cada día más. </p>
+        votos nulos o personas que no vayan a votar, esto hace
+        que las crifras crezcan cada vez más. </p>
         
     </div>
     

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../Regis/styleRegis.css';
 
 class Body extends React.Component {
     render() {
@@ -10,7 +11,15 @@ class Body extends React.Component {
         <div >
             <h1 className="tituoRegist">REGISTRO</h1>
         </div>
-        <div  class="form-group">
+        <div class="row">
+            <div className="form-group">
+                <input type="text"className="nombreApellido" placeholder="Nombre"></input>
+                <input type="text" class="nombreApellido" placeholder="Apellidos"></input>
+            </div>
+        </div>
+    
+
+        <div class="form-group">
         <input type="text" class="form-control" placeholder="Nombre de usuario" />
         </div>
         <div class="form-group">

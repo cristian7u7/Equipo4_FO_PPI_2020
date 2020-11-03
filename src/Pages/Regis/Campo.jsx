@@ -1,10 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-<<<<<<< HEAD
 import './styleRegis.css';
-=======
 import '../Regis/styleRegis.css';
->>>>>>> feature_SaraM
 
 class Body extends React.Component {
     render() {

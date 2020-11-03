@@ -66,18 +66,15 @@ function Aplicacion(){
         <Route exact path="/politiqueando/Foros/Pregunta1" component={PreguntaUno} />;
         <Route exact path="/politiqueando/Foros/Pregunta2" component={PreguntaDos} />;
         <Route exact path="/politiqueando/Foros/Pregunta3" component={PreguntaTres} />;
+        
         <Route exact path="/Ideologias" component={Ideologias}/>
-            <Route exact path="/Ideologias/IntroduccionMapa/mapas" component={Mapas}/>
-            <Route exact path="/Ideologias/IntroduccionMapa/mapas/mapa2" component={Mapa2}/>
-             <Route exact path="/Ideologias/IntroduccionMapa/mapas/mapa2/mapa3" component={Mapa3}/>
-           <Route exact path="/Ideologias/IntroduccionMapa/mapas/mapa2/Ideologias" component={Ideologias}/>
-           <Route exact path="/Ideologias/mapas/Ideologias" component={Ideologias}/>
-           <Route exact path="/Ideologias/IntroduccionMapa/mapas/mapa2/mapa3/mapa4" component={Mapa4}/>
-           <Route exact path="/Ideologias/IntroduccionMapa/mapas/mapa2/mapa3/mapa4" component={Mapa4}/>
-           <Route exact path="/Ideologias/IntroduccionMapa" component={IntroduccionMapa}/>
-           <Route exact path="/Ideologias/IntroduccionMapa/mapas/mapa2/Ideologias" component={Ideologias}/>
-           <Route exact path="/Ideologias/IntroduccionMapa/mapas/mapa2/mapa3/Ideologias" component={Ideologias}/>
-           <Route exact path="/Ideologias/IntroduccionMapa" component={ContenidoIntroduccion_1}/>
+        <Route exact path="/Ideologias/IntroduccionMapa/mapas" component={Mapas}/>
+        <Route exact path="/Ideologias/IntroduccionMapa/mapas/mapa2" component={Mapa2}/>
+        <Route exact path="/Ideologias/IntroduccionMapa/mapas/mapa2/mapa3" component={Mapa3}/>
+        <Route exact path="/Ideologias/mapas/Ideologias" component={Ideologias}/>
+        <Route exact path="/Ideologias/IntroduccionMapa/mapas/mapa2/mapa3/mapa4" component={Mapa4}/>
+        <Route exact path="/Ideologias/IntroduccionMapa" component={IntroduccionMapa}/>
+        <Route exact path="/Ideologias/IntroduccionMapa" component={ContenidoIntroduccion_1}/>
 
             
 

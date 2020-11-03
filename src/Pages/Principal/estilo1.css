@@ -59,9 +59,15 @@
 .text_1{
     margin: auto;
     text-align: center;
-    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 73%;
+    width: 70%;
+}
+
+.parra_text{
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .contenedor{

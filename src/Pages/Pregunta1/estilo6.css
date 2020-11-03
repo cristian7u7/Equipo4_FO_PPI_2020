@@ -41,7 +41,7 @@
 
 .texto_Pregunta{
     margin: auto;
-    width: 70%;
+    width: 80%;
     height: 120px;
 }
 
@@ -55,12 +55,10 @@
 
 .btn{
     background-color: aquamarine;
-    padding-left: 2%;
-    padding-right: 2%;
 }
 
 .conte-btn{
-    margin-left: 15%;
+    margin-left: 45%;
     margin-bottom: 4%;
     margin-top: 1%;
 }

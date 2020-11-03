@@ -18,9 +18,9 @@ class Foros1 extends React.Component{
                     </p>
                 </div>
                 <div className="conte-img-foros">
-                    <img className="img-foros voto-img" src="https://i.ibb.co/DksDCtD/circle-cropped-7.png" alt=""/>
-                    <img className="img-foros voto-img" src="https://i.ibb.co/gDc346m/circle-cropped-8.png" alt=""/>
-                    <img className="img-foros voto-img" src="https://i.ibb.co/s3NJsTt/circle-cropped-9.png" alt=""/>
+                    <img className="img-foros" src="https://i.ibb.co/DksDCtD/circle-cropped-7.png" alt=""/>
+                    <img className="img-foros" src="https://i.ibb.co/gDc346m/circle-cropped-8.png" alt=""/>
+                    <img className="img-foros" src="https://i.ibb.co/s3NJsTt/circle-cropped-9.png" alt=""/>
                 </div>
                 <div className="conte-parti">
                 <h1 className="Titulo-Mapa1">¿POR QUE ES IMPORTANTE</h1>

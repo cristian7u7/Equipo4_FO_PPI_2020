@@ -1,5 +1,5 @@
 import React from "react";
-import '../Principal/estilo1.css';
+import '../Foros_Principal/estilo5.css';
 
 class Barra extends React.Component{
     render(){

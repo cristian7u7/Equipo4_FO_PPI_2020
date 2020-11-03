@@ -1,8 +1,5 @@
 import React from 'react';
-<<<<<<< HEAD
 import './styleInicio.css';
-=======
->>>>>>> feature_SaraM
 import { Link } from 'react-router-dom';
 import '../InicioSesion/styleInicioSesion.css';
 

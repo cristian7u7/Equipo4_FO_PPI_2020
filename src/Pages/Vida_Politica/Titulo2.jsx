@@ -4,12 +4,9 @@ class Titulo2 extends React.Component {
     render() {
         return (
           
-            <div className="titulo2">
-               
-                <h1 className="vacio">.</h1>
-                
-                <h1>Cada etapa esta marcada por la política en un ámbito diferente   </h1>
-           
+            <div >
+                <h1 className="titleC">Cada etapa esta marcada   </h1>
+                <h4 className="titlec"> por la política en un ámbito diferente</h4>           
            </div>
         );
     }

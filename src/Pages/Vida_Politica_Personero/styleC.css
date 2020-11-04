@@ -24,41 +24,33 @@
     margin-left:  700px ;
     
 }
-.tittulo{
-    font-weight: bold;
-    text-align: center;
-    margin: auto;
-    margin-top: 45px; 
-    
+.Personero_C{
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 1500px;
     text-align: center;
+    margin-top: 5%;
 }
-.Parrafo_{
-    
-    margin-top: 30px;
-    font-size: 18px;
+.Parrafo_C{
+    text-align: center;
+    margin: auto;
+    font-size: 20;
+}
+.Parrafo_C1{
+    text-align: center;
+    margin: auto;
+    font-size: 20;
+    margin-top: 2%;
+}
+.btn_3{
+    text-align: center;
+    margin: auto;
+    display: flex;
     font-family: Arial;
-    width: 80%;
-    justify-content: center;
-    margin: auto;
-    text-align: center;
-    margin-top: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: -180px;
+    border-radius: 5px;
     
-}
-.colegio{
-    margin: auto;
-    text-align: center;
-}
-.boton_Volver{
-    text-align: center;
-    margin: auto;
-    font-size: 20px;
-    color: black;
     
-}
-.colegio{
-    text-align: center;
-    margin: auto;
 }

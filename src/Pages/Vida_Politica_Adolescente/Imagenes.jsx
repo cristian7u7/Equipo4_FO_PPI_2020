@@ -4,29 +4,24 @@ class Imagenes extends React.Component {
     render() {
         return (
           
-            <div className="card_group"  style={{width: 550, height: 90, }}>
-            <div className="card_">
-                <img src="https://mcusercontent.com/338fe1d94f4de7f756608827c/images/92cc7cb7-2bd5-46ae-aa59-dccc0587b56f.png" className="card-img-top" alt=""/>
-                <div className="card_body">
-                    <h4 className="card_title">PERSONERO</h4>
-                    
+           <div className="imagenesC">
+               <div className="personero">
+                   <img className="ImgC" src="https://mcusercontent.com/338fe1d94f4de7f756608827c/images/bdd0aa79-f3b4-4216-a96f-6cfdf3c06f45.png" alt=""/>
+                   <a  href="/Vida_Politica_Personero">PERSONERO</a>
 
-                </div>
-            </div>  
+               </div>
 
-             <div className="card">
-                <img src="https://mcusercontent.com/338fe1d94f4de7f756608827c/images/40d1be02-70ae-40fc-911d-edddcbd5dfe1.png" className="card-img-top" alt=""/>
-                <div className="card_body">
-                    <h4 className="card_title">CONTRALOR</h4>
-                    
-
-                </div>
-                <h1 className="vacio"></h1>
-            </div>      
+               <div className="contralor">
+               <img className="ImgC" src="https://mcusercontent.com/338fe1d94f4de7f756608827c/images/a7df3438-1194-4e01-bac9-4b4d4e8b082e.png" alt=""/>
+               
+               <a  href="">CONTRALOR</a>
+               
+               </div>
+           </div>    
 
             
                                            
-       </div>
+       
         );
     }
 }

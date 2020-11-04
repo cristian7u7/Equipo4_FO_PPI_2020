@@ -54,9 +54,9 @@
 }
 .parrafo_{
     margin-top: 30px;
-    font-size: 18px;
+    font-size: 19px;
     font-family: Arial;
-    width: 80%;
+    width: 75%;
     justify-content: center;
     margin: auto;
     text-align: center;
@@ -70,15 +70,17 @@ h4{
     text-align: center;
     margin: auto;
     margin-top: 30px;
+    height: 20%;
 }
-.btn{
+.botonc{
     background-color: rgba(196, 196, 196, 0.877);
     font-family: Arial;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 35px;
     margin-top: 30px;
     border-radius: 5px;
-    
+    color: black;
+  
 }
 .img{
     text-align: center;
@@ -121,4 +123,36 @@ h4{
     border-radius: 5px;
     
     
+}
+.TituloNiño{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1500px;
+    text-align: center;
+    margin-top: 5%;
+}
+.niño{
+    text-align: center;
+  
+    width: 100%;
+}
+.parrafo_n{
+    margin-top: 30px;
+    font-size: 19px;
+    font-family: Arial;
+    width: 75%;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    
+}
+.tituloEj{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1500px;
+    text-align: center;
+    margin-top: 5%;
+}
+.Ejemplos{
+
 }

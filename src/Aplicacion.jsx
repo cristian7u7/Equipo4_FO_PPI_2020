@@ -5,6 +5,8 @@ import Vida_Politica_Niño from './Pages/vistas/Vida_Politica_Niño.jsx';
 import Vida_Politica_Colegio from "./Pages/vistas/Vida_Politica_Colegio";
 import Vida_Politica_Adolescente from "./Pages/vistas/Vida_Politica_Adolescente";
 import Vida_Politica_Adulto from "./Pages/vistas/Vida_Politica_Adulto";
+import Vida_Politica_Personero from "./Pages/vistas/Vida_Politica_Personero";
+import Vida_Politica_Contralor from "./Pages/vistas/Vida_Politica_Contralor"
 import Pregunta from "./Pages/vistas/Pregunta";
 import ComoVotar from './ComoVotar';
 import DeberHacer from './Pages/DeberHacer';
@@ -48,6 +50,12 @@ function Aplicacion(){
         </Switch>
         <Switch>
             <Route exact path="/Vida_Politica_Pregunta" component={Pregunta}/>         
+        </Switch>
+        <Switch>
+            <Route exact path="/Vida_Politica_Personero" component={Vida_Politica_Personero}/>         
+        </Switch>
+        <Switch>
+            <Route exact path="/Vida_Politica_Contralor" component={Vida_Politica_Contralor}/>         
         </Switch>
         
 

@@ -66,6 +66,10 @@
      text-align: center;
      margin: auto;
      font-family: Arial;
+     font-size: 20px;
+ }
+ .card-body{
+     color: black;
  }
  .card-groupA{
     text-align: center;
@@ -124,4 +128,14 @@ float: right;
     border-radius: 5px;
     
     
+}
+.AdultoC{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1500px;
+    text-align: center;
+    margin-top: 5%;
+}
+.AdultoImg{
+    width: 100%;
 }

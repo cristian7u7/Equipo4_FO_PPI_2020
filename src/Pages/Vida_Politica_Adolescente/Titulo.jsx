@@ -4,23 +4,9 @@ import "./style4.css";
 class Titulo extends React.Component {
     render() {
         return (
-            <div className="card__group_A"  style={{width: 400, height: 160, }}>
-            <div className="card-A">
-                <img src="https://mcusercontent.com/338fe1d94f4de7f756608827c/images/f0ed86f5-81b1-4fe3-bda9-30af089f975e.png" className="card-img-top" alt=""/>
-                <div className="card_body">
-                    
-                    
-
-                </div>
-            </div>  
-
-             <div className="card-A">
-                <div className="card__body_A">
-                    <h4 className="card__title_A">ADOLESCENTE</h4>
-                    
-
-                </div>
-            </div> 
+            <div>
+                <img className="AdolescenteImg" src="https://mcusercontent.com/338fe1d94f4de7f756608827c/images/ff9f9081-f68e-4e91-8e24-83b05283f592.png" alt=""/>
+                <h1 className="AdolescenteC">ADOLESCENTE</h1>
             </div>
         );
     }

@@ -11,7 +11,7 @@ class Flechas_3 extends React.Component {
                     
                     <div className="boton_flechas3 justify-content-md-start">                 
            <a href="/Vida_Politica_Adolescente"  class="btn_4 btn-default" role="button" > <img src="https://mcusercontent.com/338fe1d94f4de7f756608827c/images/5949886c-b431-4ca5-8735-77a0ea779f34.png" alt=""/></a>
-           <h1 className="vacio"></h1>
+          
         </div>
                 </div>
             </div>  
@@ -21,7 +21,7 @@ class Flechas_3 extends React.Component {
                     
                     <div className=" boton_flechas_3 justify-content-md-end">                 
            <a href="/Vida_Politica_Pregunta"  class="btn_4 btn-default" role="button" > <img src="https://mcusercontent.com/338fe1d94f4de7f756608827c/images/35ae1024-15b5-4fc7-bde6-f8570dc9fd99.png" alt=""/></a>
-           <h1 className="vacio"></h1>
+           
         </div>
                 </div>
             </div>                                                  

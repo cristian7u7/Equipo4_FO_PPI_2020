@@ -14,9 +14,7 @@ class Texto_Final extends React.Component {
                 </h3>
             </div>
 
-               <h1 className="vacio">.</h1>
-                <h1 className="vacio">.</h1>
-
+               
             </div>
        
             

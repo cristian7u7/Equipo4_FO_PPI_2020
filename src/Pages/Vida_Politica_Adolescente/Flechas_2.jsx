@@ -1,5 +1,7 @@
 import React from "react";
 import "./style4.css";
+import { Link } from 'react-router-dom';
+
 class Flechas_2 extends React.Component {
     render() {
         return (
@@ -8,8 +10,10 @@ class Flechas_2 extends React.Component {
                 
                 <div className="card-body__f">
                     
-                    <div className="boton_flechas2">                 
-           <a href="/Vida_Politica_Niño"  class="btn_3 btn-default" role="button" > <img src="https://mcusercontent.com/338fe1d94f4de7f756608827c/images/5949886c-b431-4ca5-8735-77a0ea779f34.png" alt=""/></a>
+                    <div className="boton_flechas2">    
+
+                    <Link to="/inicio/politiqueando/Vida_Politica" className="R"><a href=""  class="btn_3 btn-default" role="button" > <img src="https://mcusercontent.com/338fe1d94f4de7f756608827c/images/5949886c-b431-4ca5-8735-77a0ea779f34.png" alt=""/></a> </Link>           
+           
            
         </div>
                 </div>
@@ -18,8 +22,10 @@ class Flechas_2 extends React.Component {
                 
                 <div className="card-body__f">
                     
-                    <div className="boton_flechas2">                 
-           <a href="/Vida_Politica_Adulto"  class="btn_3 btn-default" role="button" > <img src="https://mcusercontent.com/338fe1d94f4de7f756608827c/images/35ae1024-15b5-4fc7-bde6-f8570dc9fd99.png" alt=""/></a>
+
+                    <div className="boton_flechas2"> 
+                                   
+                    <Link to="/inicio/politiqueando/Vida_Politica/Vida_Politica_Adulto" className="R"> <a href="/Vida_Politica_Adulto"  class="btn_3 btn-default" role="button" > <img src="https://mcusercontent.com/338fe1d94f4de7f756608827c/images/35ae1024-15b5-4fc7-bde6-f8570dc9fd99.png" alt=""/></a> </Link>
            
         </div>
                 </div>

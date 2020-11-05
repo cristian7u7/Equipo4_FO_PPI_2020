@@ -38,17 +38,19 @@ class Foros1 extends React.Component{
                 <div className="cont_Foros">
                 <div className="entre_Foros" STYLE=" top:300px; left:400px;" class="card_Foros-body">
                     <div class="entre_Foros card_Foros-body">
-                        <Link to="/Ideologias/mapas/mapa2/mapa3/foros/pregunta1" className="card-text_Foros"><p class="card-text_Foros">¿Por qué son importantes las ideologias?</p></Link>
+                        <Link to="/politiqueando/Foros/Pregunta1" className="card-text_Foros"><p class="card-text_Foros">¿Por qué son importantes las ideologias?</p></Link>
                     </div>
                 </div>
                 <div className="entre_Foros" STYLE=" top:500px; left:400px;" class="card_Foros-body">
                     <div class="entre_Foros card_Foros-body">
-                    <Link to="/Ideologias/mapas/mapa2/mapa3/foros/pregunta1" className="card-text_Foros"><p class="card-text_Foros">¿Con que ideal politico estas de acuerdo?</p></Link>
+                    <Link to="/politiqueando/Foros/Pregunta2" className="card-text_Foros"><p class="card-text_Foros">¿Con que ideal politico estas de acuerdo?</p></Link>
                     </div>
                 </div>
                 <div className="entre_Foros" STYLE=" top:700px; left:400px; " class="card_Foros-body">
                 <div class="entre_Foros card_Foros-body">
-                <p class="card-text_Foros">¿Que opinas de las consecuencias causadas por las ideologias politicas?</p>
+
+                <Link to="/politiqueando/Foros/Pregunta3" className="R"><p class="card-text_Foros">¿Que opinas de las consecuencias causadas por las ideologias politicas?</p> </Link>     
+                
                 </div>
     
                     </div>

@@ -10,8 +10,7 @@ class Personas extends React.Component {
                     <img src="https://mcusercontent.com/338fe1d94f4de7f756608827c/images/23490370-4c13-4006-b8dc-7929932ec0c5.png" className="card-img-top" alt=""/>
                     <div className="card-body">
                         <h4 className="card--title">NIÑO</h4>
-                        <div className="boton_1">                 
-               <a href="/Vida_Politica_Niño"  class="btn_1 btn-default" role="button" > Ir</a>
+                        <div className="boton_1">   
                
             </div>
                     </div>
@@ -22,7 +21,7 @@ class Personas extends React.Component {
                     <div className="card-body">
                         <h4 className="card--title">ADOLESCENTE</h4>
                         <div className="boton_1">                 
-               <a href="/Vida_Politica_Adolescente"  class="btn_1 btn-default" role="button" > Ir</a>
+               <a href=""  class="btn_1 btn-default" role="button" > Ir</a>
                
             </div>
 
@@ -34,7 +33,7 @@ class Personas extends React.Component {
                     <div className="card-body">
                         <h4 className="card--title">ADULTO</h4>
                         <div className="boton_1">                 
-               <a href="/Vida_Politica_Adulto"  class="btn_1 btn-default" role="button" > Ir</a>
+               <a href=""  class="btn_1 btn-default" role="button" > Ir</a>
                
             </div>
 

@@ -7,7 +7,7 @@ class Subtitulo extends React.Component {
           
             <div className="titulo2">              
                               
-                <h3>Te invitamos a conocer cada etapa  </h3>          
+                <h3 className="titulo2P">Te invitamos a conocer cada etapa: </h3>          
            </div>
         );
     }

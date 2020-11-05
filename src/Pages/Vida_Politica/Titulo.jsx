@@ -13,9 +13,11 @@ class Titulo extends React.Component {
            <div className="Parrafo_">
            <div  className="Parrafo_">
                <p className="Textoc">
-               Los aspectos políticos y democráticos se presentan en
-            nuestra vida desde que estamos muy pequeños, y cuando vamos creciendo, vamos aprendiendo
-            más y más  acerca de estas etapas.
+               Cuando hablamos de "vida política", nos referimos a como
+                influye y ha influido la política y la democracia a lo largo de nuestro vivir. En
+                este tema estaremos viendo algunas de las etapas por las cuales pasamos por nuestra
+                y cómo se ven influenciadas por los dos temas anteriormente dichos; ASI QUE VAMOS,
+                ANIMATE A CONOCER MÁS.
                </p>
            </div>
            </div>

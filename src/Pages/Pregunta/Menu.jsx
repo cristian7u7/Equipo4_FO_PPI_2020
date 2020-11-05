@@ -1,6 +1,6 @@
 import React from "react";
 import "./style6.css";
-
+import { Link } from 'react-router-dom';
 
 class Menu extends React.Component {
     render() {
@@ -8,7 +8,9 @@ class Menu extends React.Component {
             <div>
             
             <nav className="barrita navbar-expand-lg">
-            <a class="logo navbar-brand" href="#"><img src="https://i.ibb.co/XZjtqY5/Logo-6.png" width="55" height="70" alt=""/></a>
+            <Link to="/inicio/politiqueando" className="R"><a class="logo navbar-brand"> 
+            <img src="https://i.ibb.co/XZjtqY5/Logo-6.png" width="55" height="70" alt=""/></a></Link> 
+            
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>

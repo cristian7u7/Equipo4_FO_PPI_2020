@@ -51,10 +51,10 @@
     justify-content: center;
     margin: auto;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 30px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 60%
+    width: 50%
 }
 .parrafoA{
     font-size: 20px;
@@ -65,8 +65,6 @@
      border-radius: 0px;
      text-align: center;
      margin: auto;
-     font-family: Arial;
-     font-size: 20px;
  }
  .card-body{
      color: black;
@@ -74,7 +72,8 @@
  .card-groupA{
     text-align: center;
     margin: auto;
-    display: flex;  
+    display: flex;
+    margin-top: 3%;  
 }
 .card--titleA{
     font-family: Arial;
@@ -130,7 +129,7 @@ float: right;
     
 }
 .AdultoC{
-    font-size: 50px;
+    font-size: 70px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 1500px;
     text-align: center;
@@ -138,4 +137,101 @@ float: right;
 }
 .AdultoImg{
     width: 100%;
+}
+
+.parrafo_{
+    margin-top: 30px;
+    font-size: 21px;
+    font-family: Arial;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.Conteparrafo1{
+    font-family: Arial;
+    width: 70%;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding: 3%;
+}
+
+.Conteparrafo{
+    margin-top: 30px;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    background-color: lightgray;
+    padding: 4%;
+    width: 100%;
+}
+
+.ConteparrafoPre{
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    background-color: khaki;
+    padding: 1%;
+    width: 100%;
+}
+
+.ConteparrafoGob{
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    background-color: powderblue;
+    padding: 1%;
+    width: 100%;
+}
+
+.ConteparrafoAlc{
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    background-color: tomato;
+    padding: 1%;
+    width: 100%;
+}
+
+.parrafo_Pre{
+    margin-top: 10px;
+    font-size: 35px;
+    font-family: Arial;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    color: darkgoldenrod;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.parrafo_Gob{
+    margin-top: 10px;
+    font-size: 35px;
+    font-family: Arial;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    color: dodgerblue;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.parrafo_Alc{
+    margin-top: 10px;
+    font-size: 35px;
+    font-family: Arial;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    color: firebrick;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.img-top{
+    width: 100%;
+    height: 100%;
 }

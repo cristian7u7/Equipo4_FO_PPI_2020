@@ -4,7 +4,7 @@ class Parrafo extends React.Component {
     render() {
         return (
           
-            <div className="parrafo"  >
+            <div className="parrafoConte parrafo"  >
                
                 
                 

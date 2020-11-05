@@ -8,8 +8,8 @@ class Texto_Final extends React.Component {
 
                 
 
-            <div className="card-final" style={{width: 250, height: 70, }}>
-                <h3>
+            <div className="card-final">
+                <h3 className="textoFinal">
                     Sigue el progreso de estas tres etapas, y aprende más.
                 </h3>
             </div>

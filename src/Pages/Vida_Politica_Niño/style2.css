@@ -54,14 +54,43 @@
 }
 .parrafo_{
     margin-top: 30px;
-    font-size: 19px;
+    font-size: 21px;
     font-family: Arial;
-    width: 75%;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.Conteparrafo_{
+    font-size: 21px;
+    font-family: Arial;
+    width: 54%;
     justify-content: center;
     margin: auto;
     text-align: center;
     margin-top: 50px;
 }
+
+.Conteparrafo1{
+    font-family: Arial;
+    width: 60%;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding: 3%;
+}
+
+.Conteparrafo{
+    margin-top: 30px;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    background-color: khaki;
+    padding: 4%;
+    width: 100%;
+}
+
 h4{
     font-size: 17px;
     font-family: Arial;
@@ -125,7 +154,7 @@ h4{
     
 }
 .TituloNiño{
-    font-size: 50px;
+    font-size: 65px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 1500px;
     text-align: center;
@@ -147,12 +176,48 @@ h4{
     
 }
 .tituloEj{
-    font-size: 30px;
+    font-size: 55px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 1500px;
     text-align: center;
     margin-top: 5%;
+    color: dodgerblue;
 }
 .Ejemplos{
+    margin-top: 10px;
+    font-size: 21px;
+    font-family: Arial;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
 
+.ConteEjemplos{
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    padding: 4%;
+    width: 70%;
+}
+
+.ParraFi{
+    font-size: 23px;
+    font-family: Arial;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.ParraFi1{
+    font-size: 23px;
+    font-family: Arial;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: powderblue;
+    padding: 4%;
+    margin-top: 50px;
 }

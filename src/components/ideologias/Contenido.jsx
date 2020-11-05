@@ -51,7 +51,7 @@ class Contenido extends React.Component{
                </div>
                
                <div className="Boton_2">
-               <Link to="/Ideologias/foros" className="Boton1"><button className="ForosBoton">FOROS</button></Link>
+               <Link to="/politiqueando/foros" className="Boton1"><button className="ForosBoton">FOROS</button></Link>
                </div>
                </div>
                

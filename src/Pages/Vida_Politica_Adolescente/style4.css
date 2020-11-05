@@ -45,6 +45,38 @@
 .parrafox{
     font-size: 20px;
 }
+
+.ConteParrafox{
+    font-size: 20px;
+    width: 55%;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.ConteParrafox_1{
+    font-size: 20px;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.ConteParrafox1{
+    text-align: center;
+    margin: auto;
+    background-color: powderblue;
+    padding: 4%;
+}
+
+.ConteParrafox2{
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    background-color: powderblue;
+    padding: 3%;
+}
+
+
 .card_{
     border-color: white;
     color: black;
@@ -155,4 +187,42 @@
 .ImgC{
  width: 50%;
  height: 80%;
+}
+
+.tituloEj{
+    font-size: 55px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1500px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: dodgerblue;
+}
+
+.Ejemplos{
+    font-size: 21px;
+    font-family: Arial;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.ConteEjemplos{
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 4%;
+    width: 70%;
+}
+
+.personero{
+    width: 76%;
+    height: 76%;
+}
+
+.contralor{
+    width: 76%;
+    height: 76%;
 }

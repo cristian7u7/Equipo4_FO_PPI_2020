@@ -33,40 +33,25 @@ import ContenidoIntroduccion_1 from "./Vistas1/ContenidoIntroduccion_1";
 function Aplicacion(){
     return(
         <BrowserRouter>
-        <Switch>
-            <Route exact path="/Vida_Politica" component={Vida_Politica}/>         
-        </Switch>
-        <Switch>
-            <Route exact path="/Vida_Politica_Niño" component={Vida_Politica_Niño}/>         
-        </Switch>
-        <Switch>
-            <Route exact path="/Vida_Politica_Colegio" component={Vida_Politica_Colegio}/>         
-        </Switch>
-        <Switch>
-            <Route exact path="/Vida_Politica_Adolescente" component={Vida_Politica_Adolescente}/>         
-        </Switch>
-        <Switch>
-            <Route exact path="/Vida_Politica_Adulto" component={Vida_Politica_Adulto}/>         
-        </Switch>
-        <Switch>
-            <Route exact path="/Vida_Politica_Pregunta" component={Pregunta}/>         
-        </Switch>
-        <Switch>
-            <Route exact path="/Vida_Politica_Personero" component={Vida_Politica_Personero}/>         
-        </Switch>
-        <Switch>
-            <Route exact path="/Vida_Politica_Contralor" component={Vida_Politica_Contralor}/>         
-        </Switch>
         
-
+        
+        <Route exact path="inicio/Regis/inicio" component={InicioSesion}/>
         <Route exact path="/inicio/Regis" component={Regis}/>
+        <Route exact path="inicio/Regis/inicio" component={InicioSesion}/>
+        <Route exact path="inicio/Regis/inicio" component={InicioSesion}/>
         <Route exact path="/inicio/ComoVotar" component={ComoVotar}/>
         <Route exact path= "/inicio" component={InicioSesion}/>
-        <Route exact path="/inicio/ComoVotar/deber" component={DeberHacer}/>
+        <Route exact path="/inicio/politiqueando" component={Principal} />;
+        <Route exact path="/inicio/politiqueando/Vida_Politica" component={Vida_Politica}/>         
+        <Route exact path="/inicio/politiqueando/Vida_Politica/Vida_Politica_Niño" component={Vida_Politica_Niño}/>         
+        <Route exact path="/inicio/politiqueando/Vida_Politica/Vida_Politica_Niño/Vida_Politica_Colegio" component={Vida_Politica_Colegio}/>    
+        <Route exact path="/inicio/politiqueando/Vida_Politica/Vida_Politica_Adolescente" component={Vida_Politica_Adolescente}/>         
+        <Route exact path="/inicio/politiqueando/Vida_Politica/Vida_Politica_Adulto" component={Vida_Politica_Adulto}/>
+        <Route exact path="/inicio/politiqueando/Vida_Politica/Vida_Politica_Pregunta" component={Pregunta}/>
+        <Route exact path="/inicio/politiqueando/Vida_Politica/Vida_Politica_Personero" component={Vida_Politica_Personero}/> 
+        <Route exact path="/inicio/politiqueando/Vida_Politica/Vida_Politica_Contralor" component={Vida_Politica_Contralor}/>         
+       <Route exact path="/inicio/ComoVotar/deber" component={DeberHacer}/>
         <Route exact path="/inicio/ComoVotar/nodeber" component={NoDeberHacer}/>
-        <Route exact path="inicio/Regis/inicio" component={InicioSesion}/>
-
-        <Route exact path="/politiqueando" component={Principal} />;
         <Route exact path="/politiqueando/Voto" component={Voto} />;
         <Route exact path="/politiqueando/Voto/Razones" component={Razones_V} />;
         <Route exact path="/politiqueando/Nosotros" component={Nosotros} />;
@@ -75,18 +60,18 @@ function Aplicacion(){
         <Route exact path="/politiqueando/Foros/Pregunta2" component={PreguntaDos} />;
         <Route exact path="/politiqueando/Foros/Pregunta3" component={PreguntaTres} />;
         
-        <Route exact path="/Ideologias" component={Ideologias}/>
+        <Route exact path="/inicio/politiqueando/Ideologias" component={Ideologias}/>
         <Route exact path="/Ideologias/IntroduccionMapa/mapas" component={Mapas}/>
         <Route exact path="/Ideologias/IntroduccionMapa/mapas/mapa2" component={Mapa2}/>
         <Route exact path="/Ideologias/IntroduccionMapa/mapas/mapa2/mapa3" component={Mapa3}/>
         <Route exact path="/Ideologias/mapas/Ideologias" component={Ideologias}/>
         <Route exact path="/Ideologias/IntroduccionMapa/mapas/mapa2/mapa3/mapa4" component={Mapa4}/>
         <Route exact path="/Ideologias/IntroduccionMapa" component={IntroduccionMapa}/>
-        <Route exact path="/Ideologias/IntroduccionMapa" component={ContenidoIntroduccion_1}/>
-
+        
+   
             
 
-
+       
         </BrowserRouter>
         
         

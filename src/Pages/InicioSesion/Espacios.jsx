@@ -38,7 +38,12 @@ class  Espacios extends React.Component {
 
     <div className="solito"></div>
     <div class="iniciar">
-    <a class="personalizado">INICIAR</a>
+
+    
+
+    <Link to="/inicio/politiqueando" className="R"><a  class="personalizado">INICIAR</a> </Link> 
+    
+
     </div>
     </div>
     </body>

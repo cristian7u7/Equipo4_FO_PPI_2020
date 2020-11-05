@@ -8,7 +8,7 @@ import Parrafo from '../Vida_Politica/Parrafo';
 import Subtitulo from '../Vida_Politica/Subtitulo';
 import Personas2 from '../Vida_Politica/Personas2';
 import Texto_Final from '../Vida_Politica/Texto_Final';
-
+import Footer from '../Vida_Politica_Colegio/Footer';
 
 function Vida_Politica() {
     return (
@@ -23,6 +23,7 @@ function Vida_Politica() {
        <Subtitulo/>
        <Personas2/>
         <Texto_Final/> 
+        <Footer/>
      </div>
   
     );

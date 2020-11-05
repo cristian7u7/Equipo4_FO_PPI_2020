@@ -5,6 +5,7 @@ import Parrafo from '../Vida_Politica_Colegio/Parrafo';
 import Imagen from '../Vida_Politica_Colegio/Imagen';
 import Flecha from '../Vida_Politica_Colegio/Flecha';
 
+import Footer from '../Vida_Politica_Colegio/Footer';
 
 function Vida_Politica_Colegio() {
     return (
@@ -14,6 +15,7 @@ function Vida_Politica_Colegio() {
        <Parrafo/>
        <Imagen/>
        <Flecha/>
+       <Footer/>
      </div>
   
     );

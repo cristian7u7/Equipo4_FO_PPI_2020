@@ -3,7 +3,7 @@ import Menu from '../Menu';
 import TituloC from '../Vida_Politica_Contralor/TituloC';
 import ParrafoC from '../Vida_Politica_Contralor/ParrafoC';
 import FlechasC from '../Vida_Politica_Contralor/FlechasC';
-
+import Footer from '../Vida_Politica_Colegio/Footer';
 function Vida_Politica_Contralor() {
     return (
      <div>
@@ -11,6 +11,7 @@ function Vida_Politica_Contralor() {
        <TituloC/>
        <ParrafoC/>
        <FlechasC/>
+       <Footer/>
      </div>
   
     );

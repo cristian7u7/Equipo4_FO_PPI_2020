@@ -4,7 +4,7 @@ import Titulo from '../Vida_Politica_Niño/Titulo';
 import Parrafo from '../Vida_Politica_Niño/Parrafo';
 import Buton from '../Vida_Politica_Niño/Buton';
 import Flechas_1 from '../Vida_Politica_Niño/Flechas_1';
-
+import Footer from '../Vida_Politica_Colegio/Footer';
 function Vida_Politica_Niño() {
     return (
      <div>
@@ -13,6 +13,7 @@ function Vida_Politica_Niño() {
        <Parrafo/>
        <Buton/>
        <Flechas_1/>
+       <Footer/>
      </div>
   
     );

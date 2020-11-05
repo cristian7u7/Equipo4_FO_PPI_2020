@@ -6,7 +6,7 @@ import Aplicacion from './Aplicacion';
 
 ReactDOM.render(
   <React.StrictMode>   
-     < Aplicacion/>
+     <Aplicacion/>
   </React.StrictMode>,
   document.getElementById('root')
 );

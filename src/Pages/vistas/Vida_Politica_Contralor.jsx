@@ -1,5 +1,5 @@
 import React from 'react';
-import Menu from '../Vida_Politica_Contralor/Menu';
+import Menu from '../Menu';
 import TituloC from '../Vida_Politica_Contralor/TituloC';
 import ParrafoC from '../Vida_Politica_Contralor/ParrafoC';
 import FlechasC from '../Vida_Politica_Contralor/FlechasC';

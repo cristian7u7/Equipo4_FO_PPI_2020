@@ -1,5 +1,5 @@
 import React from "react";
-import Barra from "../Foros_Principal/Barra"
+import Barra from "../Menu"
 import Foros1 from "../Foros_Principal/Foros1";
 import Footer from "../Foros_Principal/Footer";
 

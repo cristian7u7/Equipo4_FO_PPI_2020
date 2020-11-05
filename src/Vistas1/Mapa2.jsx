@@ -1,7 +1,7 @@
 import React from 'react';
 import "../components/Mapa2/style3S.css"
 
-import Menu from "../components/Mapa2/Menu"
+import Menu from "../Pages/Menu"
 import InfoMapa from "../components/Mapa2/InfoMapa"
 import Footer from "../components/Mapa2/Footer";
 

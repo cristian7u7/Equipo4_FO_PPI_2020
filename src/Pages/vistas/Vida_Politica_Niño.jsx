@@ -1,5 +1,5 @@
 import React from 'react';
-import Menu from '../Vida_Politica_Niño/Menu';
+import Menu from '../Menu';
 import Titulo from '../Vida_Politica_Niño/Titulo';
 import Parrafo from '../Vida_Politica_Niño/Parrafo';
 import Buton from '../Vida_Politica_Niño/Buton';

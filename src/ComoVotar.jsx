@@ -1,5 +1,5 @@
 import React from 'react';
-import Nav from './Pages/ComoVotar/Nav';
+import Nav from './Pages/Menu';
 import Titulo from './Pages/ComoVotar/Titulo';
 import Body from './Pages/ComoVotar/Body';
 import Titulo_Instrucciones from './Pages/ComoVotar/Titulo_Instrucciones';

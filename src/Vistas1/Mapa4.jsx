@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Menu from "../components/Mapas/Menu";
+import Menu from "../Pages/Menu";
 import ContenidoMapa4 from "../components/Mapa4.jsx/ContenidoMapa4";
 import Footer from "../components/Mapa4.jsx/Footer";
 

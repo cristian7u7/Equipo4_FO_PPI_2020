@@ -8,7 +8,7 @@ class Body extends React.Component {
     
     <div className="imagenVotar">
     <img className="urna" src="https://i.ibb.co/FzgVspn/urna.png" ></img>
-        <p class="text-break">Una de las razones por la cual existe la abstención politica en 
+        <p className="textIntroduccion">Una de las razones por la cual existe la abstención politica en 
         Colombia es porque muchas de las personas no están informadas
         de la manera correcta de como votar,ni dónde hacerlo.
         Esto se convierte en un gran problema  ya que al haber 

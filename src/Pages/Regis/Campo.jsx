@@ -6,7 +6,7 @@ import '../Regis/styleRegis.css';
 class Body extends React.Component {
     render() {
         return (
-    <body>
+    
     <div className="body">
     <form>
         <div >
@@ -40,7 +40,7 @@ class Body extends React.Component {
     <img src="https://i.ibb.co/Kjz5Ljz/gooogle.png"  width="40px"/>
     </button> 
     
-    <div className="vacio"></div>
+    
     <div class="b">
 
     <Link to="/inicio" className=""><a class="boton_personalizado">REGISTRARSE</a></Link> 
@@ -50,7 +50,7 @@ class Body extends React.Component {
 
     </div>
     </div>
-    </body>
+   
 
 );
     }

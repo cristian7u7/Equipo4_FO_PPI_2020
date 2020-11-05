@@ -1,5 +1,5 @@
 import React from "react";
-import Barra from "../Pregunta3/Barra"
+import Barra from "../Menu"
 import Pregunta3 from "../Pregunta3/Pregunta3";
 import Footer from "../Pregunta3/Footer";
 

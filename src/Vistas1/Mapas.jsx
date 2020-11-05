@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Menu from "../components/Mapas/Menu"
+import Menu from "../Pages/Menu"
 import ContenidoMapas from "../components/Mapas/ContenidoMapas"
 import Footer from "../components/Mapas/Footer";
 

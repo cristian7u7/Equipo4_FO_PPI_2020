@@ -1,27 +1,3 @@
-
-.navbar-expand-lg{
-    background-color: #ffbd59;
-    height: 120px;
-    color: black;
-    width: 100%;
-}
-
-.logo{
-    margin-top: -5px;
-    margin-left: 30px;
-}
-
-.elements{
-    margin-top: 15px;
-    color: black;
-    font-size: 15px;
-    margin-left: 40px;
-}
-
-.elements__1{
-    margin-left: 700px;
-}
-
 .elements__down{
     color: black;
     font-size: 14px;

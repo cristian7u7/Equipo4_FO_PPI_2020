@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Nav from './DeberHacer/Nav';
+import Nav from '../Pages/Menu';
 import Cards from './DeberHacer/Cards'
 import Titulo from './DeberHacer/Titulo';
 import Introduccion from './DeberHacer/Introduccion'

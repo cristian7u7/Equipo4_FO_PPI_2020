@@ -1,5 +1,5 @@
 import React from "react";
-import Barra from "../Razones/Barra";
+import Barra from "../Menu";
 import Titulo_PVoto from "../Razones/Titulo_PVoto";
 import Titulo_Razones from "../Razones/Titulo_Razones";
 import Razones from "../Razones/Razones";

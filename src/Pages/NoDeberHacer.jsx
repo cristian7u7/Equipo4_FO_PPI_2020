@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Nav from './NoDeberHacer/Nav';
+import Nav from "../Pages/Menu";
 import Titulo from './NoDeberHacer/Titulo';
 import Cards from './NoDeberHacer/cards';
 import Intro from './NoDeberHacer/Intro';

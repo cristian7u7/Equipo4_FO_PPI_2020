@@ -1,5 +1,5 @@
 import React from 'react';
-import Menu from "../components/Mapa3/Menu"
+import Menu from "../Pages/Menu"
 import InfoMapa3 from "../components/Mapa3/InfoMapa3"
 import Footer from "../components/Mapa3/Footer";
 

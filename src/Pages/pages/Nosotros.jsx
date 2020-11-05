@@ -1,5 +1,5 @@
 import React from "react";
-import Barra from "../Nosotros/Barra"
+import Barra from "../Menu"
 import Titulo_Nosotros from "../Nosotros/Titulo_Nosotros";
 import Footer from "../Nosotros/Footer";
 

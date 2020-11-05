@@ -1,7 +1,7 @@
 import React from 'react';
  //Componentes 
 
- import Menu from "../components/ideologias/Menu";
+ import Menu from "../Pages/Menu";
  import Titulo from "../components/ideologias/Titulo";
  import Contenido from "../components/ideologias/Contenido";
  import Footer from "../components/ideologias/Footer";

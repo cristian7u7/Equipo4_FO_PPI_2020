@@ -5,8 +5,6 @@ import "./style4.css";
 class Menu extends React.Component {
     render() {
         return (
-            <div>
-            
             <nav className="barrita navbar-expand-lg">
             <a class="logo navbar-brand" href="#"><img src="https://i.ibb.co/XZjtqY5/Logo-6.png" width="55" height="70" alt=""/></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,7 +34,7 @@ class Menu extends React.Component {
                 </ul>
             </div>
         </nav>
-        </div>
+        
         );
     }
 }

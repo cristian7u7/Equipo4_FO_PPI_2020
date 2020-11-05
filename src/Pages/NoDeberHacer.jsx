@@ -5,7 +5,7 @@ import Titulo from './NoDeberHacer/Titulo';
 import Cards from './NoDeberHacer/cards';
 import Intro from './NoDeberHacer/Intro';
 import Footer from './NoDeberHacer/Footer'
-
+import FlechasNoDeber from './NoDeberHacer/FlechasNoDeber';
 
 
 function NoDeberHacer () {
@@ -15,6 +15,7 @@ function NoDeberHacer () {
     <Titulo/>
     <Intro/>
     <Cards/>
+    <FlechasNoDeber/>
     <Footer/>
     </div>
     );

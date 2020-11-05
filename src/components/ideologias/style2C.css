@@ -98,12 +98,14 @@
 
 .contenido-ide{
     background-color: powderblue;
+    padding: 4%;
+}
 
-    
-    
-}.ImagenIdeologias{
-    width: 1300px;
-}.ParrafoIdeologias3{
+.ImagenIdeologias{
+    width: 100%;
+}
+
+.ParrafoIdeologias3{
    
     justify-content: center;
     margin: auto;

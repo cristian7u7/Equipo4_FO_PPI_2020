@@ -25,7 +25,7 @@
     
 }
 .Contralor_C{
-    font-size: 50px;
+    font-size: 70px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 1500px;
     text-align: center;
@@ -34,7 +34,7 @@
 .Parrafo_C2{
     text-align: center;
     margin: auto;
-    font-size: 20;
+    font-size: 20px;
 }
 .Parrafo_C3{
     text-align: center;
@@ -49,8 +49,68 @@
     font-family: Arial;
     font-weight: bold;
     font-size: 25px;
-    margin-top: -180px;
+    margin-top: 18px;
     border-radius: 5px;
-    
-    
+}
+
+.boton_flechas2{
+    margin-top: 5%;
+}
+
+
+.ContenedorParrafo{
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
+
+.img-Personero{
+    width: 100%;
+}
+
+.ConteParrafoxCon{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.ConteParrafox_1Con{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.ConteParrafox1Con{
+    text-align: center;
+    margin: auto;
+    background-color: #FFDF5C;
+    padding: 4%;
+}
+
+.ConteParrafox2Con{
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    background-color:#FFDF5C;
+    padding: 3%;
+}
+
+.ConteParrafo_DesContralor{
+    width: 67%;
+    text-align: center;
+    margin: auto;
+    margin-top: 7%;
+}
+
+.Parrafo_DesContralor{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1500px;
+    text-align: center;
+    margin: auto;
+    text-transform: uppercase;
+    color: dodgerblue;
 }

@@ -6,37 +6,30 @@ class Temas extends React.Component{
     render(){
         return(
             <React.Fragment className="conte">
-                <div className="card-deck conte">
-                    <div class="card">
-
-                    <Link to="/inicio/politiqueando/Vida_Politica" className="R">  <a href=""><img src="https://i.ibb.co/6t9vPZ7/circle-cropped-1.png" class="image" alt="..." /></a></Link>  
-                        <div class="card-body">
-                        <h5 class="card-title text">VIDA POLÍTICA</h5>
+                <div className="ConteTemas">
+                    <div className="Temas">
+                        <Link to="/inicio/politiqueando/Vida_Politica" className="R">  <a href=""><img src="https://i.ibb.co/gzPtsPy/Dise-o-sin-t-tulo-90.png" class="image" alt="..." /></a></Link>
+                        <h1 className="text">VIDA POLITICA</h1>
                         <div className="text_1">
-                        <p className="card-text parra_text">Atrévete, conoce y aprende sobre cómo han influido la politica y la democracia a lo largo de cada etapa de tu vida</p>
-                        </div>
+                        <p className="parra_text"> Atrévete, conoce y aprende sobre como han influido la politica y la democracia a lo largo de cada etapa de tu vida</p>
                         </div>
                     </div>
 
-                    
-                    <div class="card">
-                    <Link to="/inicio/politiqueando/Ideologias" className="R">  <a href=""><img src="https://i.ibb.co/GH2bMHn/circle-cropped.png" class="image" alt="..."/></a> </Link>
-                        <div class="card-body">
-                        <h5 class="card-title text">IDEOLOGÍAS POLÍTICAS</h5>
+                    <div className="Temas">
+                        <Link to="/inicio/politiqueando/Vida_Politica" className="R">  <a href=""><img src="https://i.ibb.co/NFXrMvN/Dise-o-sin-t-tulo-91.png" class="image" alt="..." /></a></Link>
+                        <h1 className="text">IDEOLOGIAS POLITICA</h1>
                         <div className="text_1">
-                            <p className="card-text parra_text">¿Te gustaría saber que hitos e historias han marcado a Colombia con respecto a su pensamiento político y democratico?</p>
+                        <p className="parra_text">¿Te gustaría saber que hitos e historias han marcado a Colombia con respecto a su pensamiento politico y democratico?
+                        </p>
                         </div>
-                        </div>
-
                     </div>
 
-                    <div class="card">
-                    <Link to="/politiqueando/Voto" className="R"> <a href=""><img src="https://i.ibb.co/5scWB14/circle-cropped-2.png" class="image" alt="..."/></a></Link>
-                        <div class="card-body">
-                        <h5 class="card-title text">EL VOTO</h5>
+                    <div className="Temas">
+                        <Link to="/inicio/politiqueando/Vida_Politica" className="R">  <a href=""><img src="https://i.ibb.co/crdm5m0/Dise-o-sin-t-tulo-92.png" class="image" alt="..." /></a></Link>
+                        <h1 className="text">EL VOTO</h1>
                         <div className="text_1">
-                        <p className="card-text parra_text">Es importante conocer las razones por las cuales debemos ejercer el voto, al igual que informarnos cómo y dónde hacerlo</p>
-                        </div>
+                        <p className="parra_text">Es importante conocer las razones por las cuales debemos ejecer el voto, al igual que informarnos cómo y donde hacerlo
+                        </p>
                         </div>
                     </div>
                 </div>

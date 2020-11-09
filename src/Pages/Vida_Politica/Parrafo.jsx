@@ -8,10 +8,10 @@ class Parrafo extends React.Component {
                
                 
                 
-                <h4 className="parrafo">En la vida las personas pasamos por diferentes etapas en las cuales vemos y aprendemos
+                <p className="parrafo">En la vida las personas pasamos por diferentes etapas en las cuales vemos y aprendemos
             desde pequeños como influye la politica y la democracia en nuestras vidas, aqui te vamos a
             enseñar y a mostrar de como se ve involucrada la politica y la democracia en las diferentes
-             etapas de nuestras vidas </h4>
+             etapas de nuestras vidas </p>
              
            </div>
         );

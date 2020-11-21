@@ -1,58 +1,92 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import { Link } from 'react-router-dom';
 import './styleRegis.css';
 import '../Regis/styleRegis.css';
+import fetchAxios from '../../config/configAxios';
+import { useState } from 'react';
 
-class Body extends React.Component {
-    render() {
+
+
+
+
+function Registro ({history}){
+    const [usuario, guardarUsuario]=useState({
+        nombre: '',
+        apellido: '',
+        nombreUsuario: '',
+        contraseña: '',
+    });
+
+    const actualizarEstado = e => {
+        guardarUsuario({
+            ...usuario,
+            [e.target.name]: e.target.value
+        });
+        console.log(usuario)
+    }
+
+   /*  const agregarUsuario = (e) => {
+        e.preventDefault();
+
+        fetchAxios.post()
+    } */
+
+    const validarUsuario = () => {
+        const {nombre, apellido, nombreUsuario, contraseña} = usuario;
+        let valido = !nombre.length || !apellido.length|| !nombreUsuario.length || !contraseña;
+    }
+
         return (
-    
+<Fragment>
+
     <div className="body">
-    <form>
+    <form >
         <div >
             <h1 className="tituoRegist">REGISTRO</h1>
         </div>
-        <div class="row">
+
             <div className="form-group">
-                <input type="text"className="nombreApellido" placeholder="Nombre"></input>
-                <input type="text" class="nombreApellido" placeholder="Apellidos"></input>
+                <input type="text"className="form-control form-control-user" id="nombre" name="nombre"  placeholder="Nombre" onChange={actualizarEstado}></input>
             </div>
-        </div>
-    
+            <div className="form-group">
+                <input type="text"className="form-control form-control-user" id="apellido" name="apellido" placeholder="Apellido"onChange={actualizarEstado}></input>
+            </div>
+
+
 
         <div class="form-group">
-        <input type="text" class="form-control" placeholder="Nombre de usuario" />
+        <input type="text" className="form-control" id="nombreUsuario" name="nombreUsuario" placeholder="Nombre de usuario" onChange={actualizarEstado}/>
         </div>
         <div class="form-group">
-            <input type="password" size="20" maxlength="20" class="form-control" placeholder="Contraseña"/>
+            <input type="password" size="20" maxlength="20" className="form-control" id="contraseña" name="contraseña" placeholder="Contraseña" onChange={actualizarEstado}/>
         </div>
         <div class="form-group">
-            <input type="password" size="20" maxlength="20" class="form-control" placeholder="Confirmar contraseña"/>
+            <input type="password" size="20" maxlength="20" className="form-control" id="confirmarContraseña" placeholder="Confirmar contraseña"/>
         </div>
     </form>
 
-    
+
     <button className="loguitos" >
     <img src="https://i.ibb.co/hYmkwr2/icono-facebook.png" width="40px" />
     </button>
-    
+
     <button className="loguitos">
     <img src="https://i.ibb.co/Kjz5Ljz/gooogle.png"  width="40px"/>
-    </button> 
-    
-    
+    </button>
+
+
     <div class="b">
 
-    <Link to="/inicio" className=""><a class="boton_personalizado">REGISTRARSE</a></Link> 
-    
-    
+    <Link to="/inicio" className=""><a class="boton_personalizado">REGISTRARSE</a></Link>
+
+
 
 
     </div>
     </div>
-   
 
+</Fragment>
 );
     }
-} 
-export default Body; 
+
+export default Registro;

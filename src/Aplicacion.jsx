@@ -41,7 +41,7 @@ function Aplicacion(){
         <Route exact path="inicio/Regis/inicio" component={InicioSesion}/>
         <Route exact path="/inicio/ComoVotar" component={ComoVotar}/>
         <Route exact path= "/inicio" component={InicioSesion}/>
-        <Route exact path="/inicio/politiqueando" component={Principal} />;
+        <Route exact path="/inicio/politiqueando" component={Principal} />
         <Route exact path="/inicio/politiqueando/Vida_Politica" component={Vida_Politica}/>         
         <Route exact path="/inicio/politiqueando/Vida_Politica/Vida_Politica_Niño" component={Vida_Politica_Niño}/>         
         <Route exact path="/inicio/politiqueando/Vida_Politica/Vida_Politica_Niño/Vida_Politica_Colegio" component={Vida_Politica_Colegio}/>    
@@ -52,13 +52,13 @@ function Aplicacion(){
         <Route exact path="/inicio/politiqueando/Vida_Politica/Vida_Politica_Contralor" component={Vida_Politica_Contralor}/>         
        <Route exact path="/inicio/ComoVotar/deber" component={DeberHacer}/>
         <Route exact path="/inicio/ComoVotar/nodeber" component={NoDeberHacer}/>
-        <Route exact path="/politiqueando/Voto" component={Voto} />;
-        <Route exact path="/politiqueando/Voto/Razones" component={Razones_V} />;
-        <Route exact path="/politiqueando/Nosotros" component={Nosotros} />;
-        <Route exact path="/politiqueando/Foros" component={Foros_Principal} />;
-        <Route exact path="/politiqueando/Foros/Pregunta1" component={PreguntaUno} />;
-        <Route exact path="/politiqueando/Foros/Pregunta2" component={PreguntaDos} />;
-        <Route exact path="/politiqueando/Foros/Pregunta3" component={PreguntaTres} />;
+        <Route exact path="/politiqueando/Voto" component={Voto} />
+        <Route exact path="/politiqueando/Voto/Razones" component={Razones_V} />
+        <Route exact path="/politiqueando/Nosotros" component={Nosotros} />
+        <Route exact path="/politiqueando/Foros" component={Foros_Principal} />
+        <Route exact path="/politiqueando/Foros/Pregunta1" component={PreguntaUno} />
+        <Route exact path="/politiqueando/Foros/Pregunta2" component={PreguntaDos} />
+        <Route exact path="/politiqueando/Foros/Pregunta3" component={PreguntaTres} />
         
         <Route exact path="/inicio/politiqueando/Ideologias" component={Ideologias}/>
         <Route exact path="/Ideologias/IntroduccionMapa/mapas" component={Mapas}/>

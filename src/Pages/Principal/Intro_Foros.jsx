@@ -1,5 +1,6 @@
 import React from "react";
 import './estilo1.css';
+import { Link } from 'react-router-dom';
 
 class Intro_Foros extends React.Component{
     render(){
@@ -17,7 +18,7 @@ class Intro_Foros extends React.Component{
                     </div>
                 </div>
                 <div className="FondoForos">
-                <a className="ancle_foros" href="">¡VAMOS A LOS FOROS!</a>
+                <Link to="/politiqueando/Foros" className="R">  <a className="ancle_foros" href="">¡VAMOS A LOS FOROS!</a></Link>
                 </div>
             </React.Fragment>
         );

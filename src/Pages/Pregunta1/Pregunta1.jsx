@@ -19,11 +19,11 @@ class ContenidoPregunta1 extends React.Component {
                 <h1 className="Titulo_Principal">COMENTARIOS:</h1>
                 <div>
                     <div  class="form-group">
-                        <input type="text" class="texto_Pregunta form-control" placeholder="Ingresa aquí tu comentario"/>
+                        <input type="text" className="texto_Pregunta form-control" placeholder="Ingresa aquí tu comentario"/>
                     </div>
                 </div>
-                <div className="conte-btn">
-                    <button type="button_pregunta" className="btn btn-warning_pregunta1"><p className="publicar">Publicar</p></button>
+                <div className="conte-BotonPublicar">
+                    <button type="button_pregunta" className="BotonPublicar btn-warning_pregunta1"><p className="publicar">Publicar</p></button>
                 </div>
             </div>
         );

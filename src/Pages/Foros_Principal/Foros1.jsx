@@ -38,18 +38,21 @@ class Foros1 extends React.Component{
                 <div className="cont_Foros">
                 <div className="entre_Foros" STYLE=" top:300px; left:400px;" class="card_Foros-body">
                     <div class="entre_Foros card_Foros-body">
-                        <Link to="/politiqueando/Foros/Pregunta1" className="card-text_Foros"><p class="card-text_Foros">¿Por qué son importantes las ideologias?</p></Link>
+                        <Link to="/politiqueando/Foros/Pregunta1" className="card-text_Foros"><p class="card-text_Foros">¿QUÉ OPINAS DE LAS MEDIDAS DE LOS GOBIERNOS
+DURANTE LA PANDEMIA?</p></Link>
                     </div>
                 </div>
                 <div className="entre_Foros" STYLE=" top:500px; left:400px;" class="card_Foros-body">
                     <div class="entre_Foros card_Foros-body">
-                    <Link to="/politiqueando/Foros/Pregunta2" className="card-text_Foros"><p class="card-text_Foros">¿Con que ideal politico estas de acuerdo?</p></Link>
+                    <Link to="/politiqueando/Foros/Pregunta2" className="card-text_Foros"><p class="card-text_Foros">¿CUÁL ES TU PENSAMIENTO RESPECTO A LA INFLUENCIA
+DE LOS PARTIDOS POLITICOS EN LA SOCIEDAD?</p></Link>
                     </div>
                 </div>
                 <div className="entre_Foros" STYLE=" top:700px; left:400px; " class="card_Foros-body">
                 <div class="entre_Foros card_Foros-body">
 
-                <Link to="/politiqueando/Foros/Pregunta3" className="R"><p class="card-text_Foros">¿Que opinas de las consecuencias causadas por las ideologias politicas?</p> </Link>     
+                <Link to="/politiqueando/Foros/Pregunta3" className="R"><p class="card-text_Foros">¿POR QUÉ CONSIDERAS QUE ES IMPORTANTE
+LA PARTICIPACIÓN CIUDADANA?</p> </Link>     
                 
                 </div>
     

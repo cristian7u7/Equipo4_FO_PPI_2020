@@ -24,12 +24,12 @@ class InfoMapa3 extends React.Component {
               </p>
 
              
-
-            <Link to="/Ideologias/IntroduccionMapa/mapas/" className="Imagen_1"> <img className="ImagenFlechitaBatalla" src="https://i.ibb.co/xgQ44Z9/jkkj.png " alt=""/></Link> 
+ 
 
                 <img className="FotoBatalla" src="https://i.ibb.co/SXhX3Ft/Portada-de-Facebook-de-moda-p-lido-cer-leo-10.png"/>
 
                 <p className="ParrafoNose">La batalla finaliza con la rendición en masa de la división realista, y fue la culminación de 78 días de campaña iniciada desde Venezuela por el Libertador Simón Bolívar para independizar la Nueva Granada.</p>
+                <Link to="/Ideologias/IntroduccionMapa/mapas/" className="Imagen_1"> <img className="ImagenFlechitaBatalla" src="https://i.ibb.co/xgQ44Z9/jkkj.png " alt=""/></Link>
             </div>
 
         );

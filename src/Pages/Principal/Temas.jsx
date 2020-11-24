@@ -16,7 +16,7 @@ class Temas extends React.Component{
                     </div>
 
                     <div className="Temas">
-                        <Link to="/inicio/politiqueando/Vida_Politica" className="R">  <a href=""><img src="https://i.ibb.co/NFXrMvN/Dise-o-sin-t-tulo-91.png" class="image" alt="..." /></a></Link>
+                        <Link to="/inicio/politiqueando/Ideologias" className="R">  <a href=""><img src="https://i.ibb.co/NFXrMvN/Dise-o-sin-t-tulo-91.png" class="image" alt="..." /></a></Link>
                         <h1 className="text">IDEOLOGIAS POLITICA</h1>
                         <div className="text_1">
                         <p className="parra_text">¿Te gustaría saber que hitos e historias han marcado a Colombia con respecto a su pensamiento politico y democratico?
@@ -25,7 +25,7 @@ class Temas extends React.Component{
                     </div>
 
                     <div className="Temas">
-                        <Link to="/inicio/politiqueando/Vida_Politica" className="R">  <a href=""><img src="https://i.ibb.co/crdm5m0/Dise-o-sin-t-tulo-92.png" class="image" alt="..." /></a></Link>
+                        <Link to="/politiqueando/Voto" className="R">  <a href=""><img src="https://i.ibb.co/crdm5m0/Dise-o-sin-t-tulo-92.png" class="image" alt="..." /></a></Link>
                         <h1 className="text">EL VOTO</h1>
                         <div className="text_1">
                         <p className="parra_text">Es importante conocer las razones por las cuales debemos ejecer el voto, al igual que informarnos cómo y donde hacerlo

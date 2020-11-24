@@ -51,6 +51,14 @@ class Razones extends React.Component{
                     </li>
                 </ul>
                 <div className="vacio">POLITIQUEANDO ANDO - 2020</div>
+
+                <h1 className="tituloImportancia">¿POR QUÉ ES IMPORTANTE VOTAR?</h1>
+
+                <div className="VideoRazones">
+                <iframe width="660" height="415" src="https://www.youtube.com/embed/2AtYAPdQoG0"
+                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+                </div>
             </React.Fragment>
         );
     }

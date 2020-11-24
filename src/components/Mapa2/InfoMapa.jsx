@@ -23,9 +23,6 @@ class InfoMapa extends React.Component {
                      Pero ciertamente, por cuestiones de dramatismo histórico, 
                      es más sonoro tenerle ese nombre de ‘Mil Días’.</p>
 
-                      
- 
-                        <Link to="/Ideologias/IntroduccionMapa/mapas/" className="Imagen_1">  <img className="FlechitaGuerra" src="https://i.ibb.co/xgQ44Z9/jkkj.png " width="100px" alt=""/></Link> 
 
                     <div className="DivGuerraMil">
                      <p className="ParrafoGuerraMilDias2">
@@ -45,7 +42,7 @@ class InfoMapa extends React.Component {
                      <button className="Consecuencia3">Separación de Panamá</button>
                      </div>
     
-                   
+                     <Link to="/Ideologias/IntroduccionMapa/mapas/" className="Imagen_1">  <img className="FlechitaGuerra" src="https://i.ibb.co/xgQ44Z9/jkkj.png " width="100px" alt=""/></Link> 
                   
            </div>
         );

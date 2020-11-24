@@ -78,16 +78,17 @@
     margin: auto;
     text-align: center;
     padding: 3%;
+    display: flex;
+    background-color: #87BBEB;
 }
 
-.Conteparrafo{
+.ConteparrafoNiño{
     margin-top: 30px;
     justify-content: center;
     margin: auto;
     text-align: center;
     margin-top: 50px;
-    background-color: khaki;
-    padding: 4%;
+    background-color: #87BBEB;
     width: 100%;
 }
 
@@ -98,15 +99,13 @@ h4{
 .boton{
     text-align: center;
     margin: auto;
-    margin-top: 30px;
     height: 20%;
 }
 .botonc{
-    background-color: rgba(196, 196, 196, 0.877);
+    background-color: #c4c4c4e0;
     font-family: Arial;
     font-weight: bold;
     font-size: 35px;
-    margin-top: 30px;
     border-radius: 5px;
     color: black;
   
@@ -137,7 +136,6 @@ h4{
 .boton_flechas{
     text-align: center;
     margin: auto;
-    margin-top: 30px;
     display: flex;
     
 }
@@ -148,7 +146,6 @@ h4{
     font-family: Arial;
     font-weight: bold;
     font-size: 25px;
-    margin-top: 30px;
     border-radius: 5px;
     
     
@@ -183,6 +180,7 @@ h4{
     margin-top: 5%;
     color: dodgerblue;
 }
+
 .Ejemplos{
     margin-top: 10px;
     font-size: 21px;
@@ -199,6 +197,14 @@ h4{
     margin-top: 50px;
     padding: 4%;
     width: 70%;
+    display: flex;
+    
+}
+
+.conte_ejemplos{
+    margin-left: 5%;
+    margin-right: 5%;
+    
 }
 
 .ParraFi{
@@ -236,4 +242,50 @@ h4{
 .footer_image{
     width: 3%;
     height: 3%;
+}
+
+.conteParrafoNiños{
+    width: 80%;
+    margin-top: 12%;
+}
+
+.ImagenParrafoNiño{
+    width: 45%;
+    height: 45%;
+}
+
+.parrafoNiño{
+    margin-top: 30px;
+    font-size: 21px;
+    font-family: cursive;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.conteColegio{
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+.imageColegioIntro{
+    width: 35%;
+    height: 35%;
+    margin-left: 21%;
+}
+
+.conte_parrafoColegioIntro{
+    width: 20%;
+    margin-top: 12%;
+}
+
+.parrafoColegioIntro{
+    margin-top: 30px;
+    font-size: 21px;
+    font-family: cursive;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    font-weight: bolder;
 }

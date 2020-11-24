@@ -26,15 +26,16 @@ import Mapa2 from "./Vistas1/Mapa2";
 import Mapa3 from "./Vistas1/Mapa3"
 import Ideologias from "./Vistas1/Ideologias";
 import Mapa4 from "./Vistas1/Mapa4";
-import IntroduccionMapa from "./Vistas1/ContenidoIntroduccion_1"
-import ContenidoIntroduccion_1 from "./Vistas1/ContenidoIntroduccion_1";
+import IntroduccionMapa from "./Vistas1/ContenidoIntroduccion_1";
+import Intro from "./Pages/pages/Intro";
+
 
 
 function Aplicacion(){
     return(
         <BrowserRouter>
         
-        
+        <Route exact path="/introduccion" component={Intro}/>
         <Route exact path="inicio/Regis/inicio" component={InicioSesion}/>
         <Route exact path="/inicio/Regis" component={Regis}/>
         <Route exact path="inicio/Regis/inicio" component={InicioSesion}/>
@@ -67,7 +68,6 @@ function Aplicacion(){
         <Route exact path="/Ideologias/mapas/Ideologias" component={Ideologias}/>
         <Route exact path="/Ideologias/IntroduccionMapa/mapas/mapa2/mapa3/mapa4" component={Mapa4}/>
         <Route exact path="/Ideologias/IntroduccionMapa" component={IntroduccionMapa}/>
-        
    
             
 

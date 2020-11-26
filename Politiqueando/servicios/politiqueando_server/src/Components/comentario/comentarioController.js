@@ -32,6 +32,35 @@ class comentarioController {
         });
     
       };
+      async obtenerComentario(req, res) {
+        let {id} = req.params;
+    
+        await mysqlConection.query('SELECT * FROM comentarios WHERE comentario_id = ?', [id], (err, rows, fields) =>{
+          if(!err) {
+            res.json(rows[0]);
+          } else {
+            console.log(err);
+            res.status(500).json({message: "Error: " + err.toString()});
+          }
+    
+        });
+    
+      };
+
+      async eliminarComentario(req, res) {
+        let {id} = req.params;
+    
+        await mysqlConection.query('DELETE  FROM comentarios WHERE comentario_id = ?', [id], (err, rows, fields) =>{
+          if(!err) {
+            res.json({status: 'comentario eliminado'});
+          } else {
+            console.log(err);
+            res.status(500).json({message: "Error: " + err.toString()});
+          }
+    
+        });
+    
+      };
 
 }
 

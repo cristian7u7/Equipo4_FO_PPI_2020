@@ -3,17 +3,18 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const app = express();
 
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
+const routes = require("./network/routes")
+
+app.use(bodyParser.json({limit: "10mb" }));
+app.use(bodyParser.urlencoded({ extended: true }));
 
 // rutas
-const route = require("./network/routes");
-route(app);
 
-app.get("/",(req, res)=>{
-    res.send("Politiqueando server");
-})
 
-app.listen(3306,()=>{
-    console.log("Politiqueando server http://localhost:3306");
+app.use( "/", routes )
+
+app.listen(3000,()=>{
+
+    console.log("Politiqueando server http://localhost:3000");
+
 })

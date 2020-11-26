@@ -1,30 +1,22 @@
-// const mysql = require("mysql");
-
-// const createConnection = mysql.createPool({
-//     host: 'localhost',
-//     user: 'root',
-//     password: '',
-//     database: 'okplayers',
-//     port: 3306
-// });
-// const promisePool = createConnection.promise();
-// module.exports = promisePool;
 const mysql = require('mysql');
-const util = require("util");
 
-const con = mysql.createConnection({
-  host: "localhost",
-  database: "base_politiqueando",
-  user: "root",
-  password: "",
+
+const mysqlConnection = mysql.createConnection({
+  connectionLimit: 10,
+  host: "bfqpe49r5avzgv4ig6ak-mysql.services.clever-cloud.com",
+  database: "bfqpe49r5avzgv4ig6ak",
+  user: "up0qcenhkfgtzb1k",
+  password: "Ph240rxDdxMNtdaUaHyJ",
   port: 3306
 });
 
-con.connect(function(err) {
-  if (err) throw err;
-  console.log("DB connected!");
+mysqlConnection.connect(function (err) {
+  if (err) {
+    console.error(err);
+    return;
+  } else {
+    console.log('La Base de Datos ha sido conectada satisfactoriamente');
+  }
 });
 
-const query = util.promisify(con.query).bind(con);
-
-module.exports = query;
+module.exports = mysqlConnection;

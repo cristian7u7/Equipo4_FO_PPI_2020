@@ -1,13 +1,10 @@
-const login = require("../components/login/network");
-const user = require("../components/user/network");
-const foro = require("../components/foro/network");
-const comentario = require("../components/comentario/network");
+const router = require ("express").Router();
 
-const routes = (server) => {
-    server.use("/registro", user);
-    server.use("/login", login);
-    server.use("/foro", foro);
-    server.use("/comentario", comentario);
-}
+const comentarioController = require("../Components/comentario/comentarioController");
 
-module.exports = routes;
+const comentario = new comentarioController();
+
+router.route('/agregarComentario').post(comentario.guardar)
+router.route('/obtenerComentarios').get(comentario.obtenerComentarios)
+
+module.exports = router;

@@ -4,27 +4,40 @@ import "./estilo6.css";
 class ContenidoPregunta1 extends React.Component {
     render() {
         return (
-            <div>
+            <div className="Fondo_Pagina_Comentario">
                 <div className="conte-Pregunta1">
                     <h1 className="Titulo_Principal">FORO #1:</h1>
                     <h1 className="Sub_Principal">¿QUE OPINAS DE LAS MEDIDAS DE LOS GOBIERNOS</h1>
                     <h1 className="Sub_Principal">DURANTE LA PANDEMIA?</h1>
                     <p className="Parrafo_Des">Durante la pandemia, los diferentes gobiernos han tomado medidas para recuperar y 
                     lograr salvar su economia, su turismo, sus bienes, entre otros; sin olvidar que debemos de cuidarnos en todo
-                    momento. Pero que opinas respecto a dichas medidas y a cerca de las decisiones que ha tomado cada gobierno.
-                    QUE BUENO CONTAR CON TU OPINION Y TU PENSAMIENTO; COMPARTELO CON NOSOTROS.</p>
+                    momento. Pero que opinas respecto a dichas medidas y a cerca de las decisiones que ha tomado cada gobierno.</p>
                 </div>
                 <p className="sub_titulo">¡Recuerda respetar la opinion de los demás y no usar vocabulario que pueda ofender a otra persona!</p>
                 <div className="vacio">POLITIQUEANDO ANDO - 2020</div>
-                <h1 className="Titulo_Principal">COMENTARIOS:</h1>
-                <div>
-                    <div  class="form-group">
+                <div className="Fondo_Comentario">
+                    <h1 className="Titulo_Principal">COMENTARIOS:</h1>
+                    <p className="Parrafo_Comen">QUE BUENO CONTAR CON TU OPINION Y TU PENSAMIENTO; COMPARTELO CON NOSOTROS.</p>
+                    <div  className="conte-CampoComentario form-group">
                         <input type="text" className="texto_Pregunta form-control" placeholder="Ingresa aquí tu comentario"/>
                     </div>
+                    <div className="conte-BotonPublicar">
+                        <button type="button_pregunta" className="BotonPublicar btn-warning_pregunta1"><p className="publicar">Publicar</p></button>
+                    </div>
+                    <div className="card">
+                    <div className="titulo_Respuesta card-header">
+                        <img className="imagen_comentario" src="https://i.ibb.co/XZjtqY5/Logo-6.png" alt=""/>
+                        <p  className="titulo_Respuesta_Letra">Usuario</p>
+                    </div>
+                        <div className="conte_Respuesta card-body">
+                            <blockquote className="blockquote mb-0">
+                            <p className="parrafo_Respuesta_Letra">Descripción de los comentarios.</p>
+                            <footer className="parrafo_Respuesta_Letra blockquote-footer">Fecha de los comentarios<cite title="Source Title"></cite></footer>
+                            </blockquote>
+                        </div>
+                    </div>
                 </div>
-                <div className="conte-BotonPublicar">
-                    <button type="button_pregunta" className="BotonPublicar btn-warning_pregunta1"><p className="publicar">Publicar</p></button>
-                </div>
+                
             </div>
         );
     }

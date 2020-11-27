@@ -4,7 +4,7 @@ import "./estilo8.css";
 class Pregunta3 extends React.Component {
     render() {
         return (
-            <div>
+            <div className="Fondo_Pagina_Comentario">
                 <div className="conte-Pregunta3">
                     <h1 className="Titulo_Principal3">FORO #3:</h1>
                     <h1 className="Sub_Principal3">¿POR QUÉ CONSIDERAS QUE ES IMPORTANTE</h1>
@@ -18,14 +18,27 @@ class Pregunta3 extends React.Component {
                 </div>
                 <p className="sub_titulo3">¡Recuerda respetar la opinion de los demás y no usar vocabulario que pueda ofender a otra persona!</p>
                 <div className="vacio">POLITIQUEANDO ANDO - 2020</div>
-                <h1 className="Titulo_Principal3">COMENTARIOS:</h1>
-                <div>
-                    <div  class="form-group">
-                        <input type="text" class="texto_Pregunta form-control" placeholder="Ingresa aquí tu comentario"/>
+                <div className="Fondo_Comentario">
+                    <h1 className="Titulo_Principal">COMENTARIOS:</h1>
+                    <p className="Parrafo_Comen">QUE BUENO CONTAR CON TU OPINION Y TU PENSAMIENTO; COMPARTELO CON NOSOTROS.</p>
+                    <div  className="conte-CampoComentario form-group">
+                        <input type="text" className="texto_Pregunta form-control" placeholder="Ingresa aquí tu comentario"/>
                     </div>
-                </div>
-                <div className="conte-btn">
-                    <button type="button_pregunta" className="btn btn-warning_pregunta1"><p className="publicar">Publicar</p></button>
+                    <div className="conte-BotonPublicar">
+                        <button type="button_pregunta" className="BotonPublicar btn-warning_pregunta1"><p className="publicar">Publicar</p></button>
+                    </div>
+                    <div className="card">
+                    <div className="titulo_Respuesta card-header">
+                        <img className="imagen_comentario" src="https://i.ibb.co/XZjtqY5/Logo-6.png" alt=""/>
+                        <p  className="titulo_Respuesta_Letra">Usuario</p>
+                    </div>
+                        <div className="conte_Respuesta card-body">
+                            <blockquote className="blockquote mb-0">
+                            <p className="parrafo_Respuesta_Letra">Descripción de los comentarios.</p>
+                            <footer className="parrafo_Respuesta_Letra blockquote-footer">Fecha de los comentarios<cite title="Source Title"></cite></footer>
+                            </blockquote>
+                        </div>
+                    </div>
                 </div>
             </div>
         );

@@ -23,8 +23,8 @@ class Foros1 extends React.Component{
                     <img className="img-foros" src="https://i.ibb.co/s3NJsTt/circle-cropped-9.png" alt=""/>
                 </div>
                 <div className="conte-parti">
-                <h1 className="Titulo-Mapa1">¿POR QUE ES IMPORTANTE</h1>
-                    <h2 className="Titulo-Mapa2">LA PARTICIPACION CIUDADANA?</h2>;
+                <h1 className="Titulo-Mapa1">¿POR QUÉ ES IMPORTANTE</h1>
+                    <h2 className="Titulo-Mapa2">LA PARTICIPACIÓN CIUDADANA?</h2>;
                     <p className="Titulo-Par">La participación ciudadana es de gran importancia porque se comparten 
                     responsabilidades al tomar decisiones, al actuar día a día, y esto no se puede hacer de manera individual,
                      se debe de tomar en cuenta un trabajo colectivo.

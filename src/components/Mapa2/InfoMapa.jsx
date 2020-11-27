@@ -12,7 +12,7 @@ class InfoMapa extends React.Component {
               <img className="ImagenMapaGuerra" src="https://i.ibb.co/Qc4yJTL/Dise-o-sin-t-tulo-50.png" alt=""/>
 
               <h1 className="TituloGuerraMilDias">GUERRA</h1>
-              <h2 className="SubtituloGuerra">DE LOS MIL DIAS</h2>
+              <h2 className="SubtituloGuerra">DE LOS MIL DÍAS</h2>
 
               <p className="ParrafitoGuerraMil">El 17 de octubre de 1899, hace 120 años, 
                   se dio el conflicto bélico declarado más

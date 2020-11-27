@@ -6,7 +6,7 @@ class TituloForos extends React.Component{
         return (
             <div>
                 <img className="ImagenIdeologias" src="https://i.ibb.co/bsWqn02/lu.png" alt=""/>
-                <h1 className="TituloIdeologias">IDEOLOGIAS POLITICAS</h1>
+                <h1 className="TituloIdeologias">IDEOLOGÍAS POLÍTICAS</h1>
           </div>
         );
     }

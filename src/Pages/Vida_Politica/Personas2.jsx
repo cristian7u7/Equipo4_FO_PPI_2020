@@ -12,7 +12,7 @@ class Personas2 extends React.Component {
             <img className="imgP" src="https://mcusercontent.com/338fe1d94f4de7f756608827c/images/23490370-4c13-4006-b8dc-7929932ec0c5.png" alt=""/>
             <div className="ConteParrafoP">
                 <p className="ParrafoP">
-                    Desde esta etapa aprenderas todo lo relacionado con la política y la democracia desde que somos niños.
+                    Desde esta etapa aprenderas todo lo relacionado con la política y la democracia desde que somos pequeños, y cómo nos influyen estos temas.
                 </p>
             </div>
             <Link to="/inicio/politiqueando/Vida_Politica/Vida_Politica_Niño" className="R"><a  class="boton" href=""   role="button" > Ir</a> </Link>

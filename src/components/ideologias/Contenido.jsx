@@ -18,7 +18,7 @@ class Contenido extends React.Component{
               </div>
               <div className="contenido-ide">
               <h1 className="TituloIdeologias1">
-                        ¿QUE ES UNA IDEOLOGIA POLITICA? 
+                        ¿QUE ES UNA IDEOLOGÍA POLÍTICA? 
                     </h1>
                     <p className="ParrafoIdeologias2">
                     Una ideología, en este sentido, es un sistema de

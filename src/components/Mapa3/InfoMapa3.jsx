@@ -11,7 +11,7 @@ class InfoMapa3 extends React.Component {
 
 
                 <h1 className="TituloBatayaBoyaca">BATALLA</h1>
-                <h2 className="SubtituloBatalla">DE BOYACA</h2>
+                <h2 className="SubtituloBatalla">DE BOYACÁ</h2>
 
                 <img className="ImagenMapaBatalla" src="https://i.ibb.co/Qc4yJTL/Dise-o-sin-t-tulo-50.png" alt="" />
 

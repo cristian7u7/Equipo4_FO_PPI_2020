@@ -1,7 +1,34 @@
 import React from "react";
 import "./estilo8.css";
-
+import axios from 'axios'
 class Pregunta3 extends React.Component {
+    state = {
+        descripcion: '',
+        comentarios:[]
+      }
+    handleChange = event => {
+        this.setState({ descripcion: event.target.value });
+        console.log(this.state)
+      }
+    handleSubmit = event => {
+        event.preventDefault();
+    
+
+axios.post(`http://localhost:3000/agregarComentario`,{descripcion:this.state.descripcion})
+       .then(res => {
+       console.log(res);
+        console.log(res.data);
+       })
+       .catch((err) => console.log(err.message))
+  }
+
+  componentDidMount() {
+    axios.get(`http://localhost:3000/obtenerComentarios`)
+      .then(res => {
+        const comentarios = res.data;
+        this.setState({ comentarios });
+      })
+  }
     render() {
         return (
             <div className="Fondo_Pagina_Comentario">
@@ -21,12 +48,15 @@ class Pregunta3 extends React.Component {
                 <div className="Fondo_Comentario">
                     <h1 className="Titulo_Principal">COMENTARIOS:</h1>
                     <p className="Parrafo_Comen">QUE BUENO CONTAR CON TU OPINION Y TU PENSAMIENTO; COMPARTELO CON NOSOTROS.</p>
+                   
+                   <form action="">
                     <div  className="conte-CampoComentario form-group">
                         <input type="text" className="texto_Pregunta form-control" placeholder="Ingresa aquí tu comentario"/>
                     </div>
                     <div className="conte-BotonPublicar">
                         <button type="button_pregunta" className="BotonPublicar btn-warning_pregunta1"><p className="publicar">Publicar</p></button>
                     </div>
+                    </form >
                     <div className="card">
                     <div className="titulo_Respuesta card-header">
                         <img className="imagen_comentario" src="https://i.ibb.co/XZjtqY5/Logo-6.png" alt=""/>

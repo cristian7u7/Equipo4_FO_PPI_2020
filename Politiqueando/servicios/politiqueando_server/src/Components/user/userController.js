@@ -3,7 +3,7 @@ const bcrypt = require("bcryptjs");
 const jwt = require('jsonwebtoken');
 
 const { encryptPassword, decryptPassword } = require("../../utils/bycript");
-const config = require('../../config/db/configDB');
+const config = require('../../utils/config');
 
 class usuarioController {
   constructor() {
@@ -50,6 +50,7 @@ class usuarioController {
   async login(req, res) {
     try {
       const {correo, contrasenia} = req.body;
+      
 
       if(!correo || !contrasenia ) {
         console.log('por favor escribe un correo o contrasenia validos')

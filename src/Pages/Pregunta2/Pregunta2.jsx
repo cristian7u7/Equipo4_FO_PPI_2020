@@ -1,9 +1,38 @@
 import React from "react";
 import "./estilo7.css";
-
+import axios from 'axios'
 class Pregunta2 extends React.Component {
+    state = {
+        descripcion: '',
+        comentarios:[]
+      }
+    handleChange = event => {
+        this.setState({ descripcion: event.target.value });
+        console.log(this.state)
+      }
+    handleSubmit = event => {
+        event.preventDefault();
+    
+
+axios.post(`http://localhost:3000/agregarComentario`,{descripcion:this.state.descripcion})
+       .then(res => {
+       console.log(res);
+        console.log(res.data);
+       })
+       .catch((err) => console.log(err.message))
+  }
+
+  componentDidMount() {
+    axios.get(`http://localhost:3000/obtenerComentarios`)
+      .then(res => {
+        const comentarios = res.data;
+        this.setState({ comentarios });
+      })
+  }
+
     render() {
         return (
+            
             <div>
                 <div className="conte-Pregunta2">
                     <h1 className="Titulo_Principal2">FORO #2:</h1>
@@ -21,24 +50,33 @@ class Pregunta2 extends React.Component {
                 <div className="Fondo_Comentario">
                     <h1 className="Titulo_Principal">COMENTARIOS:</h1>
                     <p className="Parrafo_Comen">QUE BUENO CONTAR CON TU OPINION Y TU PENSAMIENTO; COMPARTELO CON NOSOTROS.</p>
+                    
+                    <form onSubmit={this.handleSubmit}  >
                     <div  className="conte-CampoComentario form-group">
-                        <input type="text" className="texto_Pregunta form-control" placeholder="Ingresa aquí tu comentario"/>
+                        <input type="text" className="texto_Pregunta form-control" name="descripcion" placeholder="Ingresa aquí tu comentario" onChange={this.handleChange} />
                     </div>
                     <div className="conte-BotonPublicar">
-                        <button type="button_pregunta" className="BotonPublicar btn-warning_pregunta1"><p className="publicar">Publicar</p></button>
+                        <button type="submit" className="BotonPublicar btn-warning_pregunta1"><p className="publicar">Publicar</p></button>
                     </div>
+                    </form>
+
+                    
                     <div className="card">
                     <div className="titulo_Respuesta card-header">
                         <img className="imagen_comentario" src="https://i.ibb.co/XZjtqY5/Logo-6.png" alt=""/>
                         <p  className="titulo_Respuesta_Letra">Usuario</p>
                     </div>
                         <div className="conte_Respuesta card-body">
+                            <ul>
+                            { this.state.comentarios.map(comentario => <li>{comentario.descripcion}</li>)}
+                            </ul>
                             <blockquote className="blockquote mb-0">
                             <p className="parrafo_Respuesta_Letra">Descripción de los comentarios.</p>
                             <footer className="parrafo_Respuesta_Letra blockquote-footer">Fecha de los comentarios<cite title="Source Title"></cite></footer>
                             </blockquote>
                         </div>
                     </div>
+
                 </div>
             </div>
         );

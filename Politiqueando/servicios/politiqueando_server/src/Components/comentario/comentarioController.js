@@ -8,7 +8,7 @@ class comentarioController {
 
         try {
             let {descripcion} = req.body;
-
+          console.log(req.body)
         await mysqlConection.query ('INSERT INTO comentarios SET ?', {descripcion});
 
         res.status(200).json({auth: true, message: 'Cometario enviado exitosamente'});

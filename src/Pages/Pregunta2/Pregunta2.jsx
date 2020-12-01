@@ -59,26 +59,28 @@ axios.post(`http://localhost:3000/agregarComentario`,{descripcion:this.state.des
                         <button type="submit" className="BotonPublicar btn-warning_pregunta1"><p className="publicar">Publicar</p></button>
                     </div>
                     </form>
-
+                        <div>
+                    { this.state.comentarios.map(comentario => 
                     
                     <div className="card">
                     <div className="titulo_Respuesta card-header">
                         <img className="imagen_comentario" src="https://i.ibb.co/XZjtqY5/Logo-6.png" alt=""/>
-                        <p  className="titulo_Respuesta_Letra">Usuario</p>
+                        <p  className="titulo_Respuesta_Letra">Comentario</p>
                     </div>
                         <div className="conte_Respuesta card-body">
                             <ul>
-                            { this.state.comentarios.map(comentario => <li>{comentario.descripcion}</li>)}
+                            
                             </ul>
                             <blockquote className="blockquote mb-0">
-                            <p className="parrafo_Respuesta_Letra">Descripción de los comentarios.</p>
-                            <footer className="parrafo_Respuesta_Letra blockquote-footer">Fecha de los comentarios<cite title="Source Title"></cite></footer>
+                            <p className="parrafo_Respuesta_Letra">{comentario.descripcion}</p>
+                            <footer className="parrafo_Respuesta_Letra blockquote-footer">{comentario.creado}<cite title="Source Title"></cite></footer>
                             </blockquote>
                         </div>
                     </div>
-
-                </div>
+                    )}
+                </div>               
             </div>
+        </div>
         );
     }
 }

@@ -15,5 +15,7 @@ const user = new userController
 
 router.route('/registrarUsuario').post(user.guardar)
 router.route('/ingresarUsuario').post(user.login)
+router.route('/obtenerUsuarios').get(user.obtenerUsuarios)
+router.route('/obtenerUsuario/:id').get(user.obtenerUsuario)
 
 module.exports = router;

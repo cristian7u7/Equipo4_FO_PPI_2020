@@ -11,7 +11,7 @@ class usuarioController {
 
    guardar(req, res) {
     try{
-      let {usuario, contrasenia, nombre, apellido, correo, confirmarContrasenia} = req.body;
+      let {usuario, contrasenia, nombre, apellido, correo, confirmarContrasenia,} = req.body;
 
       mysqlConection.query('SELECT correo FROM usuarios WHERE correo = ?', [correo], async (err, data) =>{
         if(err) {
@@ -46,7 +46,35 @@ class usuarioController {
 
     }
   };
+  
+  async obtenerUsuarios(req, res) {
 
+    await mysqlConection.query('SELECT * FROM  usuarios', (err, rows) =>{
+      if(!err) {
+        res.json(rows);
+      } else {
+        console.log(err);
+        res.status(500).json({message: "Error: " + err.toString()});
+      }
+
+    });
+
+  };
+  
+  async obtenerUsuario(req, res) {
+    let {id} = req.params;
+
+    await mysqlConection.query('SELECT * FROM usuarios WHERE usuario_id = ?', [id], (err, rows, fields) =>{
+      if(!err) {
+        res.json(rows[0]);
+      } else {
+        console.log(err);
+        res.status(500).json({message: "Error: " + err.toString()});
+      }
+
+    });
+
+  };
   async login(req, res) {
     try {
       const {correo, contrasenia} = req.body;
